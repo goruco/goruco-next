@@ -1,0 +1,6 @@
+- wrap_layout :layout do
+  section
+    h1 = current_page.title
+    - if !current_page.data.brief.nil?
+      p.intro = current_page.data.brief
+  = yield

@@ -44,14 +44,14 @@ ignore '/calendar.html'
 # Blog settings.
 ######################################################################
 
-Time.zone = "Amsterdam"
+Time.zone = "US/Eastern"
 
 activate :blog do |blog|
-  blog.prefix = 'blog'
+  blog.prefix = 'news'
   blog.permalink = '{year}/{title}.html'
   blog.taglink = "tags/{tag}.html"
   blog.default_extension = ".md"
-
+  blog.layout   = "post"
   blog.paginate = true
   blog.per_page = 10
 end
