@@ -21,6 +21,10 @@ html.nojs
 
     = stylesheet_link_tag 'app'
 
+    script src="//use.typekit.net/snp4yyl.js" type="text/javascript"
+    javascript:
+      try{Typekit.load();}catch(e){}
+
   body
     /[if lte IE 7]
       / Ancient browser notice.
@@ -28,8 +32,10 @@ html.nojs
         | You are using an <strong>outdated</strong> browser. Please
         a<> href="http://browsehappy.com/" upgrade your browser
         | to improve your experience.
-
-    == yield
+    .container
+      .frame
+        == yield
+        .clearfix
 
     = javascript_include_tag 'app'
     = partial 'partials/_google_analytics'
