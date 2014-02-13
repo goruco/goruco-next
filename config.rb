@@ -56,6 +56,17 @@ activate :blog do |blog|
   blog.per_page = 10
 end
 
+activate :blog do |blog|
+  blog.name = "speakers"
+  blog.prefix = 'speakers'
+  blog.permalink = '{year}/{title}/'
+  blog.taglink = "tags/{tag}.html"
+  blog.default_extension = ".md"
+  blog.layout   = "speaker"
+  blog.paginate = true
+  blog.per_page = 10
+end
+
 # Enable XML feed. Don't forget to edit feed.xml.builder first.
 # page "/feed.xml", layout: false
 
