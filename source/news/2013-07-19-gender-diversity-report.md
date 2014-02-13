@@ -14,8 +14,9 @@ learned, and what's next.
 Based on the numbers, it looks like we did substantially better in women
 attendees, proposers, and speakers.
 
+<div class="tableholder">
 <table class="data">
-  <thead>
+  <tbody>
     <tr>
       <td></td>
       <th colspan="3" class="groupend">Attendees</th>
@@ -34,8 +35,7 @@ attendees, proposers, and speakers.
       <th>Women</th>
       <th>%</th>
     </tr>
-  <thead>
-  <tbody>
+
     <tr>
       <th>2011</th>
       <td>169</td>
@@ -75,9 +75,11 @@ attendees, proposers, and speakers.
   </tbody>
 </table>
 
-(Note that for attendees and proposers, counts of women are
+</div>
+
+Note that for attendees and proposers, counts of women are
 fuzzy since we're going by first names. And we seem to have lost our
-2011 proposals, so those numbers are unfortunately missing.)
+2011 proposals, so those numbers are unfortunately missing.
 
 The statistical improvement agrees with our anecdotal feedback: Many
 remarked to us that this year felt noticeably more diverse. We even ran
@@ -116,7 +118,7 @@ cajoled our good friend [Sandi Metz][sandi] into writing a post about
 [how to get over being afraid of public
 speaking][what-are-you-afraid-of].  And we participated in a few Google
 Hangout sessions where people who were interested in proposing talks
-could ask questions and get real answers from some of the organizers. 
+could ask questions and get real answers from some of the organizers.
 
 #### Student scholarships
 
@@ -158,7 +160,7 @@ grateful that Rachel stepped up to the plate.
 
 #### There will be talking
 
-Diversity in tech is a sticky situation: There are no silver bullets 
+Diversity in tech is a sticky situation: There are no silver bullets
 and there are lots of sensitive feelings.
 If you're an organizer who wants to engage with the subject, you will
 spend a lot more time talking.  It's time-consuming to meet with people

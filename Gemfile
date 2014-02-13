@@ -14,3 +14,4 @@ gem "middleman-livereload"
 gem "middleman-minify-html"
 gem "middleman-imageoptim"
 gem "bitters"
+gem 'nokogiri'

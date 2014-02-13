@@ -2,17 +2,32 @@
 title: 'GORUCO'
 ---
 
+section.brief
+  h2 GORUCO is a one-day technical conference aimed at highly motivated programmers.
 section.news
   h1 News
   article
-    h2
-      a href="#" Gender diversity at GORUCO: A follow-up
-    p Last year, after we finished GORUCO 2012, we decided we weren't happy with the gender diversity of our event. We took some steps to see if we could improve the situation. Now that we're done with GORUCO 2013, this is our report to talk about how we did, what we learned, and what's next.
+    - blog('news').articles[0..0].each do |article|
+      h2
+        a href=article.url
+          = article.data.title
+      p= article.summary(258, '…')
+      p
+        a.pill.pill_primary href=article.url
+          ' Continue reading
+          span.icon-wedge-right
 
-    p Last year, after we finished GORUCO 2012, we decided we weren't happy with the gender diversity of our event. We took some steps to see if we could improve the situation. Now that we're done with GORUCO 2013, this is our report to talk about how we did, what we learned, and what's next.
 section.previous_news
   .prev_title
     h3 Previous News
+  ul
+    - blog('news').articles[1..3].each do |article|
+      li
+        a href=article.url
+          = article.data.title
+        / p= "#{article.date.strftime("%B %d %Y")} by #{article.data.author}"
+
+
   / ul
   /   - page_articles[0..3].each_with_index do |article, i|
   /     li
@@ -25,8 +40,11 @@ section.key_dates
     li
       p
         strong
-          ' February 15th
-        br Call for Proposals opens, submit a talk.
+          ' February 7th
+        br
+          ' Call for Proposals opens,
+          a href="http://bit.ly/goruco-2014-cfp" submit a talk
+          ' .
     li
       p
         strong
@@ -43,14 +61,9 @@ section.key_dates
           ' June 21st
         br Conference
 
-section.about
-  h1 About
-  p GORUCO is a one-day event that will take place in New York City on June 21, 2014. It is a technical conference aimed at highly motivated programmers. You'll spend the day among developers and enthusiasts in New York City, home of Silicon Alley.
-  img src="/assets/images/slides/slide1.jpg"
 
 section.location
   h1 Location
-  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non
 
   div#map
   .conference
@@ -77,5 +90,5 @@ section.conduct
   h4 CODE OF CONDUCT
   p
     ' All attendees must follow our
-    a href="#" code of conduct
+    a href="/code.html" code of conduct
     '  at all times.

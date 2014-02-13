@@ -1,6 +1,11 @@
 body
   border: 20px solid #fff
-  background: #a6afb8 url(/assets/images/bg/nycblend.jpg) center 20px no-repeat
+  @include background(url("/assets/images/bg/nycblend-narrow.jpg"), url("/assets/images/bg/slice.jpg"))
+  background-position: center 20px, center top
+  background-repeat: no-repeat, repeat-y
+  background-color: #e4e4e4
+  // background: #e4e4e4 url(/assets/images/bg/nycblend.jpg) center 20px no-repeat
+  // background: url(/assets/images/bg/slice.jpg) center top repeat-y
   margin: 0 auto
   // background: #eceef2
   // padding: 0 20px
@@ -12,6 +17,7 @@ body
   background: #fff
   +border-radius(2px)
   overflow: hidden
+  min-height: 800px
 
 section
   overflow: hidden
