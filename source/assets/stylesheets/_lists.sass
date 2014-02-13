@@ -1,0 +1,23 @@
+ul.dots
+  margin-left: 60px
+  margin-bottom: 30px
+  margin-top: 30px
+  li
+    border-left: 2px solid $white
+    position: relative
+    overflow: visible
+    // margin-left: -13px
+    padding-bottom: 30px
+    &:last-child
+      border-left: 2px solid $red
+    &:before
+      position: absolute
+      display: block
+      content: url(/assets/images/icons/red-dot.png)
+      // height: 25px
+      // width: 25px
+      top: 0
+      left: -13px
+    p
+      padding: 4px 0 0 0
+      margin: 0 0 0 20px
