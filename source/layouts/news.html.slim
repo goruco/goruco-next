@@ -6,8 +6,9 @@
           span.icon-wedge-left
           ' News
   section.post
-    h1 = current_page.title
-    p.meta
-      = "Posted #{current_page.date.strftime("%B %d %Y")} by #{current_page.data.author}"
-    = yield
+    article
+      h1 = current_page.title
+      p.meta
+        = "Posted #{current_page.date.strftime("%B %d %Y")} by #{current_page.data.author}"
+      = yield
 
