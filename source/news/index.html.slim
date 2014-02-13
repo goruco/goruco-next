@@ -1,0 +1,10 @@
+h1 News
+
+ul
+  - blog('news').articles.each do |article|
+    li
+      p
+        a href=article.url
+          = article.data.title
+      p= "#{article.date.strftime("%B %d %Y")} by #{article.data.author}"
+
