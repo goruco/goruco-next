@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 gem "middleman"
-gem "middleman-blog"
+gem "middleman-blog", github: 'robb1e/middleman-blog'
 gem "middleman-neat"
 gem 'slim'
 gem "builder" # XMLfeeds

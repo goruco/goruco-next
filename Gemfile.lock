@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/robb1e/middleman-blog.git
+  revision: b44ea731e479b186bde2d694e287abfb7037e4ea
+  specs:
+    middleman-blog (3.5.1)
+      addressable (~> 2.3.5)
+      middleman-core (~> 3.2)
+      tzinfo (>= 0.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -62,10 +71,6 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.1.20)
       uglifier (~> 2.4.0)
-    middleman-blog (3.5.1)
-      addressable (~> 2.3.5)
-      middleman-core (~> 3.2)
-      tzinfo (>= 0.3.0)
     middleman-core (3.2.2)
       activesupport (~> 3.2.6)
       bundler (~> 1.1)
@@ -144,7 +149,7 @@ DEPENDENCIES
   bitters
   builder
   middleman
-  middleman-blog
+  middleman-blog!
   middleman-imageoptim
   middleman-livereload
   middleman-minify-html
