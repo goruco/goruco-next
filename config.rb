@@ -48,8 +48,8 @@ Time.zone = "US/Eastern"
 
 activate :blog do |blog|
   blog.prefix = 'news'
-  blog.permalink = '{year}/{title}.html'
-  blog.taglink = "tags/{tag}.html"
+  blog.permalink = '{year}/{title}/'
+  blog.taglink = "tags/{tag}/"
   blog.default_extension = ".md"
   blog.layout   = "post"
   blog.paginate = true
@@ -64,7 +64,7 @@ activate :blog do |blog|
   blog.name = "speakers"
   blog.prefix = 'speakers'
   blog.permalink = '{year}/{title}/'
-  blog.taglink = "tags/{tag}.html"
+  blog.taglink = "tags/{tag}/"
   blog.default_extension = ".md"
   blog.layout   = "speaker"
   blog.paginate = true
