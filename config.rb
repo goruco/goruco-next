@@ -48,6 +48,7 @@ Time.zone = "US/Eastern"
 
 activate :blog do |blog|
   blog.prefix = 'news'
+  blog.name = 'news'
   blog.permalink = '{year}/{title}/'
   blog.taglink = "tags/{tag}/"
   blog.default_extension = ".md"
