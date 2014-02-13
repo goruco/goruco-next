@@ -5,7 +5,8 @@ h1 Speakers
   h1= year
   ul
     - articles.each do |article|
-      p
-        a href=article.url
-          = article.data.meta
-      p= article.data.title
+      li
+        p
+          a href=article.url
+            = article.data.meta
+        p= article.data.title
