@@ -76,6 +76,21 @@ end
   proxy "/speakers/#{year}", "/speakers/year.html", locals: { year: year }
 end
 
+###########################
+## Organizers
+###########################
+
+activate :blog do |blog|
+  blog.name = "organizers"
+  blog.prefix = 'organizers'
+  blog.permalink = '{year}/{title}/'
+  blog.taglink = "tags/{tag}/"
+  blog.default_extension = ".md"
+  blog.layout   = "organizer"
+  blog.paginate = true
+  blog.per_page = 10
+end
+
 # Enable XML feed. Don't forget to edit feed.xml.builder first.
 # page "/feed.xml", layout: false
 

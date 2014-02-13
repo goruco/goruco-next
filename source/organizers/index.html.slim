@@ -1,0 +1,17 @@
+h1 Organizers
+
+ul
+  - blog('organizers').articles.each do |article|
+    li
+      img src=article.data.image alt=article.data.title
+      p= article.data.title
+      - if article.data.link.present?
+        a href="http://#{article.data.link}"
+          = article.data.link
+      - if article.data.github.present?
+        a href="http://github.com/#{article.data.github}"
+          = article.data.github
+      - if article.data.twitter.present?
+        a href="http://twitter.com/#{article.data.twitter}"
+          = article.data.twitter
+
