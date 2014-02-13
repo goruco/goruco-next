@@ -56,6 +56,10 @@ activate :blog do |blog|
   blog.per_page = 10
 end
 
+
+###########################
+## Speakers
+###########################
 activate :blog do |blog|
   blog.name = "speakers"
   blog.prefix = 'speakers'
@@ -65,6 +69,10 @@ activate :blog do |blog|
   blog.layout   = "speaker"
   blog.paginate = true
   blog.per_page = 10
+end
+
+(2007..2013).to_a.each do |year|
+  proxy "/speakers/#{year}", "/speakers/year.html", locals: { year: year }
 end
 
 # Enable XML feed. Don't forget to edit feed.xml.builder first.

@@ -1,0 +1,10 @@
+h1= year
+
+- speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+ul
+  - speaker_years[year].each do |article|
+    p
+      a href=article.url
+        = article.data.meta
+    p= article.data.title
+
