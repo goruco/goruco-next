@@ -17,4 +17,5 @@
         - if current_page.data.link.present?
           a href="http://#{current_page.data.link}"
             = "#{current_page.data.link}"
-    == yield
+    article
+      == yield
