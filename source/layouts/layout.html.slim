@@ -55,8 +55,8 @@ html.nojs
       };
 
       map.markerLayer.setGeoJSON(geoJson);
-      map.markerLayer.on('mouseover', function(e) {
-          e.layer.openPopup();
+      map.markerLayer.eachLayer(function(m) {
+        m.openPopup();
       });
 
     / = partial 'partials/_google_analytics'
