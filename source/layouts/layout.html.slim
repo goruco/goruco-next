@@ -1,4 +1,5 @@
-= partial 'prefix'
+doctype html
+/ = partial 'prefix'
 html.nojs
   | <!--<![endif]-->
   head
@@ -61,5 +62,5 @@ html.nojs
         m.openPopup();
       });
 
-    = partial 'partials/_google_analytics'
+    = partial 'google_analytics'
     / = partial 'partials/_disqus'
