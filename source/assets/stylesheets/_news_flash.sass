@@ -1,11 +1,19 @@
 #news_flash
-  margin: 260px auto 0 auto
+  margin: 90px auto 0 auto
   text-align: center
   +border-radius(2px)
-  border: 3px solid $black
+  border: 3px solid darken($red, 10%)
   display: block
   max-width: 700px
-  background-color: $black
+  background-color: $red
+  +make-transition
+  span
+    display: inline-block
+    padding-top: 2px
+    vertical-align: top
+  &:hover
+    background-color: darken($red, 10%)
+    border: 3px solid darken($red, 20%)
   h3
     font-size: 20px
     line-height: 25px
