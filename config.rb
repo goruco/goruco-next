@@ -38,6 +38,9 @@ end
 
 # Ignores.
 ignore '/calendar.html'
+ignore '/feed.xml.builder'
+ignore '/.bowerrc'
+ignore '/.ruby-version'
 
 
 ######################################################################
