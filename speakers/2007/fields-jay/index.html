@@ -1,0 +1,46 @@
+<!DOCTYPE html><html class=nojs><head><meta charset=utf-8 /><meta content="IE=edge" http-equiv=X-UA-Compatible /><title>Jay Fields</title><meta content="GORUCO is a one-day technical conference aimed at highly motivated programmers." name=description /><meta content="width=device-width, initial-scale=1" name=viewport /><link href="../../../assets/stylesheets/app-106fa9d6.css" media=screen rel=stylesheet /><link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css" rel=stylesheet /><script src="//use.typekit.net/snp4yyl.js"></script><script>try{Typekit.load();}catch(e){}</script></head><body><div class=container><header><nav><ul><li><a href="/" id=logo></a></li></ul></nav><p id=date>JUNE 21, 2014</p></header></div><div class=image_panel><div class=container><h1>GORUCO</h1></div><a href="//bit.ly/goruco-2014-cfp" id=news_flash><h3>GORUCO CFP is now open. Submit your talk. <span class=icon-wedge-right></span></h3></a></div><div class=container><div class=frame><section class=breadcrumbs><ul><li><a href="/speakers"><span class=icon-wedge-left></span>Speakers </a></li></ul></section><section class="post speaker_detail"><header><h1>Business Natural Language Ruby Systems</h1><div class=personal><img alt="Jay Fields" height=70 onerror="this.style.display='none'" src="/assets/images/speakers/2007/" width=70 /><h2>Presented by: Jay Fields</h2></div></header><article><h3 id=talk-description>Talk Description</h3> <p>A Business Natural Language is a Domain Specific Language where subject matter experts use natural language to represent business logic. For example, a marketing executive for an airline could specify point award descriptions as: "award 1 point for each mile flown where the total flight length is greater than 500 miles"</p> <p>The above example reads as specification; however, the code is also executable. By providing a language that subject matter experts are comfortable working with several benefits are achieved, the two largest being:</p> <ul> <li>The business may change its rules without intervention of a programmer</li> <li>Programmers no longer need to spend their time trying to represent the logic of a business in lower level languages and can focus on other more interesting tasks</li> </ul> <h3 id=bio>Bio</h3> <p><a href="//www.jayfields.com/">Jay Fields</a> is a software developer at ThoughtWorks. He is a early adopter who is consistantly looking for new exciting technologies. His most recent work has been in the Domain Specific Language space where he delivered applications that empowered subject matter experts to write the business rules of the applications.</p> </article></section><div class=clearfix></div></div><footer><p><strong>GORUCO - JUNE 21ST, 2014 AT THE ALTMAN BUILDING IN NYC</strong></p><p>Questions? Email us at: <a href="mailto:info@goruco.com">info@goruco.com</a> or tweet at: <a href="//twitter.com/goruco">@goruco</a>. </p></footer></div><script src="../../../assets/javascripts/app-da39a3ee.js"></script><script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js"></script><script>var map = L.mapbox.map('map').setView([40.740104,-73.99262], 14);
+var stamenLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}).addTo(map);
+
+var geoJson = {
+    type: 'FeatureCollection',
+    features: [{
+        type: 'Feature',
+        properties: {
+            title: 'After Party',
+            description: 'Pier 40 at 353 West Street',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-74.011300, 40.730438]
+        }
+    },
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Conference',
+            description: 'Altman Building',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-73.996154, 40.740539]
+        }
+    }]
+};
+
+map.markerLayer.setGeoJSON(geoJson);
+map.markerLayer.eachLayer(function(m) {
+  m.openPopup();
+});</script><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29279606-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script></body></html>

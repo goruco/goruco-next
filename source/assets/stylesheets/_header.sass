@@ -1,0 +1,52 @@
+header
+  overflow: hidden
+  margin-top: 10px
+  nav
+    float: left
+    li
+      float: left
+      a
+        margin: 20px 5px
+        display: block
+        font-weight: bold
+        color: $black
+        padding: 0px 7px
+        +border-radius(2px)
+        +make-transition
+        &:hover
+          color: $black
+          background-color: $white
+        &#logo
+          margin: 10px 0
+          display: block
+          width: 40px
+          height: 40px
+          background: transparent url(/assets/images/icons/goruco.png) center center no-repeat
+          background-size: 24px 25px
+          text-indent: -99999px
+          +border-radius(400px)
+          +make-transition
+          &:hover
+            background-color: $white
+  p#date
+    float: right
+    font-weight: bold
+    margin: 20px 0
+    color: $white
+
+.image_panel
+  // background: $gray url(/assets/images/bg/nyc-wide.jpg) center center no-repeat
+  height: 400px
+  margin-bottom: -70px
+  overflow: hidden
+  h1
+    text-align: center
+    color: #fff
+    font-weight: 100
+    font-size: 80px
+    padding-top: 120px
+    padding: 20px
+    width: 400px
+    margin: 46px auto 0 auto
+
+    // text-shadow: 1px 1px 1px rgba(0, 0 , 0, .50)

@@ -1,0 +1,46 @@
+<!DOCTYPE html><html class=nojs><head><meta charset=utf-8 /><meta content="IE=edge" http-equiv=X-UA-Compatible /><title>Luke Melia</title><meta content="GORUCO is a one-day technical conference aimed at highly motivated programmers." name=description /><meta content="width=device-width, initial-scale=1" name=viewport /><link href="../../../assets/stylesheets/app-106fa9d6.css" media=screen rel=stylesheet /><link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css" rel=stylesheet /><script src="//use.typekit.net/snp4yyl.js"></script><script>try{Typekit.load();}catch(e){}</script></head><body><div class=container><header><nav><ul><li><a href="/" id=logo></a></li></ul></nav><p id=date>JUNE 21, 2014</p></header></div><div class=image_panel><div class=container><h1>GORUCO</h1></div><a href="//bit.ly/goruco-2014-cfp" id=news_flash><h3>GORUCO CFP is now open. Submit your talk. <span class=icon-wedge-right></span></h3></a></div><div class=container><div class=frame><section class=breadcrumbs><ul><li><a href="/speakers"><span class=icon-wedge-left></span>Speakers </a></li></ul></section><section class="post speaker_detail"><header><h1>Managing Ruby Teams</h1><div class=personal><h2>Presented by: Luke Melia</h2></div></header><article><iframe src="//player.vimeo.com/video/12753163?title=0&amp;byline=0&amp;portrait=0" width=700 height=394 frameborder=0 webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> <p>Why a talk on managing a development team at a Ruby conference? That would imply that managing a team of Ruby developers is different than managing other development teams. Not just different as in Ruby-is-more-dynamic-and-expressive-than-Java different… although language properties do influence team dynamics and collaboration styles. Not just different as in the fast-changing, entrepreneurial types of environment that Ruby tends to be deployed in… though those environments certainly present challenges to leading and motivating teams.</p> <p>The key difference is managing Ruby developers is… Ruby developers. Generalizing, Ruby developers are a self-selected group of independent thinkers. Developers who view their work as a craft and take tremendous pride what they build. Ruby developers are community-minded. Ruby developers are early adopters.</p> <p>Technology management leaders tend to underestimate these differences. And that’s a shame, because having a good manager is a key factor in job satisfaction, and the success of projects and teams.</p> <p>This talk will cover the philosophy and techniques that I’ve used in managing Ruby teams over the last 3 years at Oxygen and Weplay.</p> <p>Luke Melia is VP, Engineering at Weplay and was Director of Software Development at Oxygen Media until it was sold to NBC. Prior to that, he owned a small software company in Charlottesville, Virginia. Since discovering Ruby in 2005, he has has been active in the Ruby community, helping to organize the first GoRuCo, presenting at nyc.rb, contributing to several open source projects including Tracks and Rails, and contributing a chapter to the lsat year’s “Ruby in Practice”, from Manning. He loves beach volleyball and lives in Chelsea with his wife and two daughters.</p> </article></section><div class=clearfix></div></div><footer><p><strong>GORUCO - JUNE 21ST, 2014 AT THE ALTMAN BUILDING IN NYC</strong></p><p>Questions? Email us at: <a href="mailto:info@goruco.com">info@goruco.com</a> or tweet at: <a href="//twitter.com/goruco">@goruco</a>. </p></footer></div><script src="../../../assets/javascripts/app-da39a3ee.js"></script><script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js"></script><script>var map = L.mapbox.map('map').setView([40.740104,-73.99262], 14);
+var stamenLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}).addTo(map);
+
+var geoJson = {
+    type: 'FeatureCollection',
+    features: [{
+        type: 'Feature',
+        properties: {
+            title: 'After Party',
+            description: 'Pier 40 at 353 West Street',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-74.011300, 40.730438]
+        }
+    },
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Conference',
+            description: 'Altman Building',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-73.996154, 40.740539]
+        }
+    }]
+};
+
+map.markerLayer.setGeoJSON(geoJson);
+map.markerLayer.eachLayer(function(m) {
+  m.openPopup();
+});</script><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29279606-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script></body></html>

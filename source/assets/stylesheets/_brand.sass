@@ -1,0 +1,22 @@
+$background: #f2f2f2
+$white: #f9fcff
+$black: #444444
+$red: #cc2a41
+$gray: #aeb3b8
+$purple: #424254
+$lightpurple: #c4cad3
+
+$link: #64908a
+$line: #d7d7d7
+
+.clearfix
+  clear: both
+  display: block
+  overflow: hidden
+
+@mixin make-transition
+  @include transition (all 0.3s ease-in-out)
+
+@mixin border-radius($rad)
+  @include border-top-radius($rad)
+  @include border-bottom-radius($rad)

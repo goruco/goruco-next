@@ -1,0 +1,46 @@
+<!DOCTYPE html><html class=nojs><head><meta charset=utf-8 /><meta content="IE=edge" http-equiv=X-UA-Compatible /><title>Chris Williams</title><meta content="GORUCO is a one-day technical conference aimed at highly motivated programmers." name=description /><meta content="width=device-width, initial-scale=1" name=viewport /><link href="../../../assets/stylesheets/app-106fa9d6.css" media=screen rel=stylesheet /><link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css" rel=stylesheet /><script src="//use.typekit.net/snp4yyl.js"></script><script>try{Typekit.load();}catch(e){}</script></head><body><div class=container><header><nav><ul><li><a href="/" id=logo></a></li></ul></nav><p id=date>JUNE 21, 2014</p></header></div><div class=image_panel><div class=container><h1>GORUCO</h1></div><a href="//bit.ly/goruco-2014-cfp" id=news_flash><h3>GORUCO CFP is now open. Submit your talk. <span class=icon-wedge-right></span></h3></a></div><div class=container><div class=frame><section class=breadcrumbs><ul><li><a href="/speakers"><span class=icon-wedge-left></span>Speakers </a></li></ul></section><section class="post speaker_detail"><header><h1>Rails’ Best Caching Method is JavaScript</h1><div class=personal><h2>Presented by: Chris Williams</h2></div></header><article><iframe src="//player.vimeo.com/video/12779633?title=0&amp;byline=0&amp;portrait=0" width=700 height=394 frameborder=0 webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> <p>One of the most critical and often overlooked (and abused) elements of any web application is the JavaScript component. In the Rails world, there is a constant and expensive circle of instrumenting, optimizing, and scaling, which can quickly wear down a team and seed funding. This talk dives deep into super JavaScript nerdery to massively “rethink” the way a Rails application is designed and put into production. I have implemented and deployed this for a variety of sites when Rails performance and scaling became overly complex and expensive. With just a (beautiful) few lines of JavaScript, scale and performance became a non-issue. Furthermore this technique also facilitates moving “high traffic” components into better and faster implements with limited effort.</p> <p>Chris Williams is the curator of JSConf, owner of Iterative Designs, and VP of OurParents. More commonly known, internetwise, by the handle of voodootikigod, he has been known from time to time to fancy a good beer. With a Masters Degree in Computer Science from Virginia Tech, he has been a network security developer for the DOD, Security Engineer for TSA, and a parallel entrepreneur. In terms of Ruby, I have whole slew of Ruby/Sinatra/Rails/etc projects from a directory service, legal office groupware, automated patent aggregation and analysis tools, and a full stack call center system.</p> </article></section><div class=clearfix></div></div><footer><p><strong>GORUCO - JUNE 21ST, 2014 AT THE ALTMAN BUILDING IN NYC</strong></p><p>Questions? Email us at: <a href="mailto:info@goruco.com">info@goruco.com</a> or tweet at: <a href="//twitter.com/goruco">@goruco</a>. </p></footer></div><script src="../../../assets/javascripts/app-da39a3ee.js"></script><script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js"></script><script>var map = L.mapbox.map('map').setView([40.740104,-73.99262], 14);
+var stamenLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}).addTo(map);
+
+var geoJson = {
+    type: 'FeatureCollection',
+    features: [{
+        type: 'Feature',
+        properties: {
+            title: 'After Party',
+            description: 'Pier 40 at 353 West Street',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-74.011300, 40.730438]
+        }
+    },
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Conference',
+            description: 'Altman Building',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-73.996154, 40.740539]
+        }
+    }]
+};
+
+map.markerLayer.setGeoJSON(geoJson);
+map.markerLayer.eachLayer(function(m) {
+  m.openPopup();
+});</script><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29279606-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script></body></html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html><html class=nojs><head><meta charset=utf-8 /><meta content="IE=edge" http-equiv=X-UA-Compatible /><title>Student scholarships sponsored by RubyCentral</title><meta content="GORUCO is a one-day technical conference aimed at highly motivated programmers." name=description /><meta content="width=device-width, initial-scale=1" name=viewport /><link href="../../../assets/stylesheets/app-106fa9d6.css" media=screen rel=stylesheet /><link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css" rel=stylesheet /><script src="//use.typekit.net/snp4yyl.js"></script><script>try{Typekit.load();}catch(e){}</script></head><body><div class=container><header><nav><ul><li><a href="/" id=logo></a></li></ul></nav><p id=date>JUNE 21, 2014</p></header></div><div class=image_panel><div class=container><h1>GORUCO</h1></div><a href="//bit.ly/goruco-2014-cfp" id=news_flash><h3>GORUCO CFP is now open. Submit your talk. <span class=icon-wedge-right></span></h3></a></div><div class=container><div class=frame><section class=breadcrumbs><ul><li><a href="/news"><span class=icon-wedge-left></span>News </a></li></ul></section><section class=post><article><h1>Student scholarships sponsored by RubyCentral</h1><p class=meta>Posted April 02 2013 by Cory Forsyth</p><p>One of the goals of the GORUCO organizing committee is to have a conference with a diverse group of attendees. This year, we are partnering with <a href="//rubycentral.org/">RubyCentral</a> to offer scholarships to students who, because of financial need, wouldn’t otherwise be able to afford to attend GORUCO.</p> <p>For the month of April we’ll be accepting applications from students. The application will close at the end of the day on April 30th and we will notify the scholarship recipients shortly thereafter. Ten applicants will be selected to receive a free ticket to the conference.</p> <p><strong>Interested in applying? Fill out our <a href="//j.mp/goruco2013-scholarship">application form</a>.</strong></p> <p>In addition to receiving a free ticket to GORUCO, scholarship recipients will be paired with volunteers from the ruby community who will act as mentors for them, helping to answer questions and introduce them to other conference-goers. These mentors will also be available to help answer questions for at-large conference attendees.</p> <p>Our goals in offering these scholarships are to make GORUCO more accessible and to help foster the community spirit among the next generation of rubyists.</p> <p>If you know a student who might benefit from this program, please help us make GORUCO a more inclusive conference by spreading the word to them!</p> <h3 id=mentors-wanted>Mentors Wanted</h3> <p>If you are interested in helping mentor the next generation of rubyists, please <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#103;&#111;&#114;&#117;&#099;&#111;&#046;&#099;&#111;&#109;">contact GORUCO</a> to find out more about becoming a volunteer! Your job will be to help answer questions and help make someone (for whom this might be their first conference) a little more comfortable.</p> </article></section><div class=clearfix></div></div><footer><p><strong>GORUCO - JUNE 21ST, 2014 AT THE ALTMAN BUILDING IN NYC</strong></p><p>Questions? Email us at: <a href="mailto:info@goruco.com">info@goruco.com</a> or tweet at: <a href="//twitter.com/goruco">@goruco</a>. </p></footer></div><script src="../../../assets/javascripts/app-da39a3ee.js"></script><script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js"></script><script>var map = L.mapbox.map('map').setView([40.740104,-73.99262], 14);
+var stamenLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}).addTo(map);
+
+var geoJson = {
+    type: 'FeatureCollection',
+    features: [{
+        type: 'Feature',
+        properties: {
+            title: 'After Party',
+            description: 'Pier 40 at 353 West Street',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-74.011300, 40.730438]
+        }
+    },
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Conference',
+            description: 'Altman Building',
+            'marker-size': 'large',
+            'marker-color': 'ba262b'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-73.996154, 40.740539]
+        }
+    }]
+};
+
+map.markerLayer.setGeoJSON(geoJson);
+map.markerLayer.eachLayer(function(m) {
+  m.openPopup();
+});</script><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29279606-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script></body></html>
