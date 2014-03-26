@@ -55,3 +55,29 @@ section.list_index
   p
     margin: 0px 30px
 
+section.speaker_homepage
+  border-top: 1px solid $line
+  margin-bottom: 20px
+  .speaker_container
+    margin: 0 30px
+  .speaker_block
+    float: left
+    margin: 10px
+    width: 75px
+    height: 110px
+    p
+      font-size: 12px
+      line-height: 15px
+      text-align: center
+      margin: 0
+    a img
+      border: 3px solid $white
+      +make-transition
+      &:hover
+        border: 3px solid $red
+
+  img
+    +border-radius(400px)
+    margin: 0 0 5px 0
+
+
