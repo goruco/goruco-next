@@ -1,5 +1,5 @@
 ---
-title: Jesse Chan-Norris
+title: "Jesse Chan-Norris"
 image: /assets/images/people/jesse.jpeg
 link: jcn.me
 github: jcn
