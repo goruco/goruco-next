@@ -1,0 +1,25 @@
+.slicknav_menu {
+  display:none;
+}
+  span#home {
+    display: none;
+  }
+
+@media screen and (max-width: 500px) {
+  #menu {
+    display:none;
+  }
+
+  .slicknav_menu {
+    display:block;
+  }
+
+  #date {
+    padding-right: 10px;
+  }
+
+  span#home {
+    display: block;
+  }
+}
+

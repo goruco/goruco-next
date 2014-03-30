@@ -1,4 +1,5 @@
 <% require_asset 'vendor/_jquery-2.x.js' %>
+<% require_asset 'vendor/_jquery.slicknav.min.js' %>
 
 $(document).ready(function() {
   $("a").click(function() {
@@ -11,4 +12,5 @@ $(document).ready(function() {
     }
   });
   $('#news_flash').addClass('animated fadeInUp');
+  $('#menu').slicknav();
 });
