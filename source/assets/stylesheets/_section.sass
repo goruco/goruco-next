@@ -11,6 +11,8 @@ section.location
   .conference, .boat
     p
       text-align: center
+      @include media($compact)
+        font-size: 12px
       em
         font-style: italic
         color: $gray
@@ -36,12 +38,17 @@ section.conduct
     margin: 0 30px
   h4
     margin-top: 25px
+    @include media($compact)
+      margin-top: 15px
   a
     color: $lightpurple
     text-decoration: underline
     &:hover
       color: $white
       text-decoration: none
+  p
+    @include media($compact)
+      font-size: 12px
 
 section.brief
   border-bottom: 1px solid $line
