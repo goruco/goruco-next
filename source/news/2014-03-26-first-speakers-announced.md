@@ -1,9 +1,23 @@
 ---
-title: First Speakers Announced
+title: 2014 Speakers Confirmed
 author: Nigel Pepper
 ---
 
-The first of our 2014 GORUCO speakers have been announced! Selection was a big deal this year, with a record number of proposals and a very high standard across the board.  Selection however, is just that, and we'd like to announce the first 6 of this year's GORUCO confirmed speakers.
+After a really tough selection process, we now have our complete 2014 speaker lineup confirmed; it's gonna be a great year!
+
+Our new lineup now includes:
+
+* Luke Melia - [Growing a Tech Community](http://goruco.com/speakers/2014/luke-melia/)
+
+* Samantha John, Jason Brennan - [Designing a better Programmer Community](http://goruco.com/speakers/2014/samantha-john/)
+
+* Solomon Kahn - [BI Tooling with Rails](http://goruco.com/speakers/2014/solomon-kahn/)
+
+* Mike Bernstein - [Know Your Types - Bringing Static Types to Dynamic Languages](http://goruco.com/speakers/2014/mike-bernstein/)
+
+* Andrew Turley - [What we can learn from COBOL](http://goruco.com/speakers/2014/andrew-turley/)
+
+* Nathan Artz - [An Approach to Developing and Testing Third Party Javascript Widgets](http://goruco.com/speakers/2014/nathan-artz/)
 
 * Michael May - [Edge Caching for Dynamic Rails Apps](/speakers/2014/michael-may).
 
@@ -16,3 +30,5 @@ The first of our 2014 GORUCO speakers have been announced! Selection was a big d
 * Audrey Troutt - [Teaching Kids to Code on Raspberry Pi](/speakers/2014/audrey-troutt)
 
 * Aaron Quint - [The Future of Ruby Performance Tooling](/speakers/2014/aaron-quint)
+
+Tickets will be on sale from 2nd April (afternoon).  We can't wait to see you there!

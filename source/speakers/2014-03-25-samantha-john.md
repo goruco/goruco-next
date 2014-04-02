@@ -11,11 +11,9 @@ twitter: hopscotch
 ###Talk Synopsis
 We will show how new approaches to language design create a better programming community.
 
-Traditionally, programming communities have been dominated by a certain type. Programmers tend to be analytical thinkers who don’t mind banging their heads against errors all day long. New, more inclusive languages make programming attractive to a wider audience who wouldn’t normally have considered it (and don’t particularly enjoy error messages). 
+Traditionally, programming communities have been dominated by a certain type. Programmers tend to be analytical thinkers who don’t mind banging their heads against errors all day long. New, more inclusive languages make programming attractive to a wider audience who wouldn’t normally have considered it (and don’t particularly enjoy error messages).
 
-Hopscotch is a language we built for the iPad to teach kids of all ages the fundamentals of programming. The iPad lets us reach people who might otherwise not have confidence with computers. We faced challenges developing a language for a small, touch-driven screen, but we worked hard to strike a balance between expressiveness and simplicity. We’re pleased to present the Hopscotch community, home to thousands of projects made by kids like you(rs).
-
-We hope others can learn from our design principles to create more languages and platforms to bring the joy of programming to everybody.
+In this talk we will share our learnings from designing a programming language for kids. We'll talk about the tradeoffs between simplicity and power and how we found the optimal balance for our audience. We hope others can learn from our design principles to create more languages and platforms to bring the joy of programming to everybody.
 
 ###Biography
 
