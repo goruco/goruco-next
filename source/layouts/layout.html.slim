@@ -10,11 +10,12 @@ html.nojs
       .container
         h1
           a href="/" GORUCO
-      #news_flash
-        a href="https://ti.to/goruco/2014?release_id=mnqmehfjro0"
-          h3
-            ' Buy Tickets
-            span.icon-wedge-right
+      - if current_page.data.title != "GORUCO Buddy Discount"
+        #news_flash
+          a href="https://ti.to/goruco/2014?release_id=mnqmehfjro0"
+            h3
+              ' Buy Tickets
+              span.icon-wedge-right
     .container
       .frame
         == yield
