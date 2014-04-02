@@ -23,4 +23,4 @@ After studying these works, I still can't write Haskell, but I do understand a l
 
 
 ###Biography
-Michael Bernstein is obsessed. Not with anything in particular, just in general. He’s a Brooklyn, NYC based software developer and amateur Computer Scientist who writes at http://michaelrbernste.in and tweets (too much) at mrb_bk. He works at Code Climate, and he’s given talks on Garbage Collection and Distributed Systems in the past. He is very excited to hang and chat with fellow NYC obsessives.
+Michael Bernstein is obsessed. Not with anything in particular, just in general. He’s a Brooklyn, NYC based software developer and amateur Computer Scientist who writes at [michaelrbernste.in](http://michaelrbernste.in/) and tweets (too much) at mrb_bk. He works at Code Climate, and he’s given talks on Garbage Collection and Distributed Systems in the past. He is very excited to hang and chat with fellow NYC obsessives.
