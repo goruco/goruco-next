@@ -35,6 +35,7 @@ var geoJson = {
 
 map.markerLayer.setGeoJSON(geoJson);
 map.dragging.disable();
+map.touchZoom.disable();
 map.scrollWheelZoom.disable();
 map.markerLayer.eachLayer(function(m) {
   m.openPopup();
