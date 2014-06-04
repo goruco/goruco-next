@@ -34,6 +34,7 @@ var geoJson = {
 };
 
 map.markerLayer.setGeoJSON(geoJson);
+map.scrollWheelZoom.disable();
 map.markerLayer.eachLayer(function(m) {
   m.openPopup();
 });
