@@ -6,6 +6,7 @@ image: /assets/images/speakers/2014/placeholder.jpg
 author: GORUCO
 year: 2014
 twitter: mrb_bk
+ballot: http://ballot.io/ballots/how-was-know-your-types
 ---
 
 ###Talk Synopsis

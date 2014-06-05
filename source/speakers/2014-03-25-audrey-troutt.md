@@ -6,6 +6,7 @@ image: /assets/images/speakers/2014/audrey_troutt.jpg
 author: GORUCO
 year: 2014
 twitter: auditty
+ballot: http://ballot.io/ballots/how-was-teaching-kids-to-code-on-raspberry-pi
 ---
 
 ###Talk Synopsis

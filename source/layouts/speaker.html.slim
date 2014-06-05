@@ -18,5 +18,8 @@
         - if current_page.data.link.present?
           a href="http://#{current_page.data.link}"
             = "#{current_page.data.link}"
+        - if current_page.data.ballot.present?
+          a href=current_page.data.ballot
+            | rate
     article
       == yield

@@ -6,6 +6,7 @@ image: /assets/images/speakers/2014/aaron_quint.jpg
 author: GORUCO
 year: 2014
 twitter: aq
+ballot: http://ballot.io/ballots/how-was-the-future-of-ruby-performance-tooling
 ---
 
 ###Talk Synopsis

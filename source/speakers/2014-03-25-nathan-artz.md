@@ -6,6 +6,7 @@ image: /assets/images/speakers/2014/nathan_artz.jpg
 author: GORUCO
 year: 2014
 twitter: nartz
+ballot: http://ballot.io/ballots/how-was-an-approach-to-developing-and-testing-third-party-javascript-widgets
 ---
 
 ###Talk Synopsis

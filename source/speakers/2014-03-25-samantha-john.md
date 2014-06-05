@@ -6,6 +6,7 @@ image: /assets/images/speakers/2014/placeholder.jpg
 author: GORUCO
 year: 2014
 twitter: hopscotch
+ballot: http://ballot.io/ballots/how-was-designing-a-better-programmer-community
 ---
 
 ###Talk Synopsis

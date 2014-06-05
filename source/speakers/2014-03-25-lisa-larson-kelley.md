@@ -6,6 +6,7 @@ image: /assets/images/speakers/2014/llk.jpg
 author: GORUCO
 year: 2014
 twitter: lisamarienyc
+ballot: http://ballot.io/ballots/how-was-real-time-communication-for-everyone
 ---
 
 ###Talk Synopsis

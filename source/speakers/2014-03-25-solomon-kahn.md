@@ -6,6 +6,7 @@ image: /assets/images/speakers/2014/solomon_kahn.jpg
 author: GORUCO
 year: 2014
 twitter: solomonkahn
+ballot: http://ballot.io/ballots/how-was-bi-tooling-with-rails
 ---
 
 ###Talk Synopsis
