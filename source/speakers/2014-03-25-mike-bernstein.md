@@ -1,8 +1,8 @@
 ---
 title: Mike Bernstein
 meta: Know Your Types - Bringing Static Types to Dynamic Languages
-desc: 
-image: /assets/images/speakers/2014/placeholder.jpg
+desc:
+image: /assets/images/speakers/2014/bernstein.jpg
 author: GORUCO
 year: 2014
 twitter: mrb_bk
