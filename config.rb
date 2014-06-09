@@ -94,6 +94,21 @@ activate :blog do |blog|
   blog.per_page = 10
 end
 
+###########################
+## Sponsors
+###########################
+
+activate :blog do |blog|
+  blog.name = "sponsors"
+  blog.prefix = 'sponsors'
+  blog.permalink = '{year}/{title}'
+  blog.taglink = "tags/{tag}"
+  blog.default_extension = ".md"
+  blog.layout   = "post"
+  blog.paginate = true
+  blog.per_page = 10
+end
+
 # Enable XML feed. Don't forget to edit feed.xml.builder first.
 # page "/feed.xml", layout: false
 
