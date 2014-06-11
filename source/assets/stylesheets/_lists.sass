@@ -17,8 +17,6 @@ ul.dots
       position: absolute
       display: block
       content: url(/assets/images/icons/red-dot.png)
-      // height: 25px
-      // width: 25px
       top: 0
       left: -13px
     p
@@ -28,3 +26,18 @@ ul.dots
 .tableholder
   margin: 20px 30px
   display: block
+
+.rating
+  li
+    text-decoration: none
+    list-style: none
+    display: inline-block
+    font-size: 28px
+    margin: 8px
+    letter-spacing: 4px
+    &.icon-happy
+      color: $rating-green
+    &.icon-sad
+      color: $rating-red
+    &.icon-meh
+      color: $rating-amber

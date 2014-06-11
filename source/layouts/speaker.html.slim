@@ -19,7 +19,14 @@
           a href="http://#{current_page.data.link}"
             = "#{current_page.data.link}"
         - if current_page.data.ballot.present?
-          a href=current_page.data.ballot
-            | rate
+          .rating
+            a href=current_page.data.ballot
+              li.icon-happy
+            a href=current_page.data.ballot
+              li.icon-meh
+            a href=current_page.data.ballot
+              li.icon-sad
     article
       == yield
+
+= partial 'ratings'
