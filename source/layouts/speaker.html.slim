@@ -18,14 +18,16 @@
         - if current_page.data.link.present?
           a href="http://#{current_page.data.link}"
             = "#{current_page.data.link}"
-        - if current_page.data.ballot.present?
-          .rating
-            a href=current_page.data.ballot
-              li.icon-happy
-            a href=current_page.data.ballot
-              li.icon-meh
-            a href=current_page.data.ballot
-              li.icon-sad
+      - if current_page.data.ballot.present?
+        .rating
+          a.rate href="#{current_page.data.ballot}/votes/new"
+            | rate
+          a href=current_page.data.ballot
+            li.icon-happy
+          a href=current_page.data.ballot
+            li.icon-meh
+          a href=current_page.data.ballot
+            li.icon-sad
     article
       == yield
 

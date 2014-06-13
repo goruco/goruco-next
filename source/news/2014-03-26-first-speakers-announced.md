@@ -7,17 +7,17 @@ After a really tough selection process, we now have our complete 2014 speaker li
 
 Our new lineup now includes:
 
-* Luke Melia - [Growing a Tech Community](http://goruco.com/speakers/2014/luke-melia/)
+* Luke Melia - [Growing a Tech Community](/speakers/2014/luke-melia)
 
-* Samantha John, Jason Brennan - [Designing a better Programmer Community](http://goruco.com/speakers/2014/samantha-john/)
+* Samantha John, Jason Brennan - [Designing a better Programmer Community](/speakers/2014/samantha-john)
 
-* Solomon Kahn - [BI Tooling with Rails](http://goruco.com/speakers/2014/solomon-kahn/)
+* Solomon Kahn - [BI Tooling with Rails](/speakers/2014/solomon-kahn)
 
-* Mike Bernstein - [Know Your Types - Bringing Static Types to Dynamic Languages](http://goruco.com/speakers/2014/mike-bernstein/)
+* Mike Bernstein - [Know Your Types - Bringing Static Types to Dynamic Languages](/speakers/2014/mike-bernstein)
 
-* Andrew Turley - [What we can learn from COBOL](http://goruco.com/speakers/2014/andrew-turley/)
+* Andrew Turley - [What we can learn from COBOL](/speakers/2014/andrew-turley)
 
-* Nathan Artz - [An Approach to Developing and Testing Third Party Javascript Widgets](http://goruco.com/speakers/2014/nathan-artz/)
+* Nathan Artz - [An Approach to Developing and Testing Third Party Javascript Widgets](/speakers/2014/nathan-artz)
 
 * Michael May - [Edge Caching for Dynamic Rails Apps](/speakers/2014/michael-may).
 
