@@ -6,8 +6,12 @@
   img
     float: left
     margin: 10px 20px
+
   .content
     margin: 40px 20px
+    @include media($compact)
+      display: block
+      clear: both
     p
       font-size: 12px
       line-height: 15px
@@ -17,3 +21,5 @@
     h4
       margin: 0
       font-size: 17px
+      @include media($compact)
+        margin: 0 30px
