@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 twitter: ksheurs
 link: kevin.sheurs.com
+youtube_video_id: Sh3hrETMPj8
 ---
 
 ###Talk Synopsis

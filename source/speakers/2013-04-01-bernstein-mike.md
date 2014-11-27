@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 link: michaelrbernste.in
 twitter: mrb_bk
+youtube_video_id: t8dj56h2gbg
 ---
 
 ###Talk Synopsis

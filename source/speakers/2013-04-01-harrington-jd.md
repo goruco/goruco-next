@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 twitter: psi
 link: twentyfourhourpartypeople.com/
+youtube_video_id: K66r3yZd2_I
 ---
 
 ###Talk Synopsis

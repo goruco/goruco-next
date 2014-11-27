@@ -6,6 +6,7 @@ image: /assets/images/speakers/2013/lauren.jpg
 author: GORUCO
 year: 2013
 twitter: laurenvoswinkel
+youtube_video_id: Bjh_p-fBb9A
 ---
 
 ###Talk Synopsis

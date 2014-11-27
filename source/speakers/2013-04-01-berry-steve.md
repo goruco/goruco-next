@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 link: thoughtmerchants.com
 twitter: thoughtmerchant
+youtube_video_id: 7ml8t6uw8ho
 ---
 
 ###Talk Synopsis

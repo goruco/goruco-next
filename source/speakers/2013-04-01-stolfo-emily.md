@@ -6,6 +6,7 @@ image: /assets/images/speakers/2013/emily.jpg
 author: GORUCO
 year: 2013
 twitter: EmStolfo
+youtube_video_id: wFlOhIWflRo
 ---
 
 ###Talk Synopsis

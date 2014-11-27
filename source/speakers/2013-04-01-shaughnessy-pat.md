@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 twitter: pat_shaughnessy
 link: patshaughnessy.net
+youtube_video_id: 5ZjwEPupybw
 ---
 
 ###Talk Synopsis

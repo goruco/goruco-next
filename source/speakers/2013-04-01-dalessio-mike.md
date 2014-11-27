@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 twitter: flavorjones
 link: mike.daless.io/
+youtube_video_id: qkvEjZ-mGQA
 ---
 
 ###Talk Synopsis

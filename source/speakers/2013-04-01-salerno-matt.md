@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 twitter: seldomatt
 link: blog.seldomatt.com
+youtube_video_id: MliQDCrTsNU
 ---
 
 ###Talk Synopsis

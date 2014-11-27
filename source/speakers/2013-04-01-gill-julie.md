@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 twitter: JulieTheThrill
 link: juliegill.com
+youtube_video_id: A56vxCYLpk4
 ---
 
 ###Talk Synopsis

@@ -7,6 +7,7 @@ author: GORUCO
 year: 2013
 twitter: aq
 link: github.com/quirkey
+youtube_video_id: GPGm5PNzNIA
 ---
 
 ###Talk Synopsis

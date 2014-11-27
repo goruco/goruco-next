@@ -29,6 +29,9 @@
           a href=current_page.data.ballot
             li.icon-sad
     article
+      - if current_page.data.youtube_video_id.present?
+        div.iframe-video-wrapper
+          iframe width="560" height="315" src="//www.youtube.com/embed/#{current_page.data.youtube_video_id}" frameborder="0" allowfullscreen
       == yield
 
 = partial 'ratings'

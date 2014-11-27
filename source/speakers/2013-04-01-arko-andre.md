@@ -6,6 +6,7 @@ image: /assets/images/speakers/2013/arko.jpg
 author: GORUCO
 year: 2013
 twitter: indirect
+youtube_video_id: 4_TqAMWbzfw
 ---
 
 ###Talk Synopsis
