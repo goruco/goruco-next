@@ -1,13 +1,12 @@
 ---
 title: Ezra Zygmuntowicz
 meta: Merb, All You Need, None You Don't
-desc: Merb is a ruby web framework with a focus on performance, modularity and simple non magical code. In this talk we will explore some of the more advanced concepts of the framework and how it was put together. 
+desc: Merb is a ruby web framework with a focus on performance, modularity and simple non magical code. In this talk we will explore some of the more advanced concepts of the framework and how it was put together.
 image: /assets/images/speakers/2008/ezra_zygmuntowicz.jpg
 author: GORUCO
 year: 2008
+youtube_video_id: BqjPOC_ckG4
 ---
-
-<iframe width="700" height="394" src="http://www.youtube.com/embed/BqjPOC_ckG4" frameborder="0" allowfullscreen></iframe>
 
 ###Talk Description
 

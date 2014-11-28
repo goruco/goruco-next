@@ -1,9 +1,8 @@
 ---
 title: RejectConf
 meta: RejectConf
-desc: 
+desc:
 author: GORUCO
 year: 2008
+youtube_video_id: W7TGK7f_IDM
 ---
-
-<iframe width="700" height="394" src="http://www.youtube.com/embed/W7TGK7f_IDM?rel=0" frameborder="0" allowfullscreen></iframe>

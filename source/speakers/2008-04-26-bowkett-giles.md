@@ -1,13 +1,12 @@
 ---
 title: Giles Bowkett
 meta: "Archaeopteryx: A Ruby MIDI Generator"
-desc: An experiment in progress, Archaeopteryx currently generates techno drum rhythms and New-Agey ambient soundscapes with ease. 
+desc: An experiment in progress, Archaeopteryx currently generates techno drum rhythms and New-Agey ambient soundscapes with ease.
 image: /assets/images/speakers/2008/giles_bowkett.jpg
 author: GORUCO
 year: 2008
+youtube_video_id: 0XDawYp9mKY
 ---
-
-<iframe width="700" height="394" src="http://www.youtube.com/embed/0XDawYp9mKY?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Talk Description
 

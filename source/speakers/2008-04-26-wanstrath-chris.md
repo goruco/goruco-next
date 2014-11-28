@@ -5,9 +5,8 @@ desc: "This talk is about Ruby's parse tree.  I'll introduce it and explain what
 image: /assets/images/speakers/2008/chris_wanstrath.jpg
 author: GORUCO
 year: 2008
+youtube_video_id: DAoYufIKebU
 ---
-
-<iframe width="700" height="394" src="http://www.youtube.com/embed/DAoYufIKebU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ###Talk Description
 

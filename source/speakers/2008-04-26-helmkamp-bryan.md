@@ -5,9 +5,8 @@ desc: We'll explore tips for integrating Story Driven Development into your exis
 image: /assets/images/speakers/2008/bryan_helmkamp.jpg
 author: GORUCO
 year: 2008
+youtube_video_id: ApD-F65Vv-Q
 ---
-
-<iframe width="700" height="394" src="http://www.youtube.com/embed/ApD-F65Vv-Q" frameborder="0" allowfullscreen></iframe>
 
 ###Talk Description
 
