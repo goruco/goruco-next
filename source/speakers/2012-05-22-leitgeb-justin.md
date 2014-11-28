@@ -5,9 +5,8 @@ desc: Most Ruby programmers spend significant time writing, maintaining and trou
 image: /assets/images/speakers/small/justin.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45096253
 ---
-
-<iframe src="http://player.vimeo.com/video/45096253?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

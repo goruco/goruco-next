@@ -4,9 +4,8 @@ meta: Grease your Suite Tips and Tricks for Faster Testing
 desc: While there has been some coverage of ActiveModel already in some blog posts, this talk will dive deeper and show how it can be used specifically for writing easy to use, readable, maintainable, and performant web service client libraries.
 year: 2010
 author: GORUCO
+vimeo_video_id: 12705404
 ---
-
-<iframe src="http://player.vimeo.com/video/12705404?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Continuous integration is a great way to keep your code base organized and well tested. But when a test suite takes so long to run that developers stop running it before every commit, they lose their constant feedback loop and quality drops. In this talk we’ll explore methods of speeding up the test suite so that developers can be confident about the code they’ve written before they share it with the team.
 

@@ -4,9 +4,8 @@ meta: Scaling to Hundreds of Millions of Requests What Worked and What Didn’t
 desc: All over the web, people are discussing the latest scalable database, the newest testing strategy, or even cloud computing.   Claims are made about scalability, reliability, and performance.   But by definition, most of this hype is simply conjecture.   Its authors rarely have the experience to support their claims.
 year: 2010
 author: GORUCO
+vimeo_video_id: 12814529
 ---
-
-<iframe src="http://player.vimeo.com/video/12814529?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 All over the web, people are discussing the latest scalable database, the newest testing strategy, or even cloud computing. Claims are made about scalability, reliability, and performance. But by definition, most of this hype is simply conjecture. Its authors rarely have the experience to support their claims.
 

@@ -5,9 +5,8 @@ desc: This talk is a sequel to the talk David gave at RubyConf 2010, and will fo
 image: /assets/images/speakers/small/david.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45095660
 ---
-
-<iframe src="http://player.vimeo.com/video/45095660?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

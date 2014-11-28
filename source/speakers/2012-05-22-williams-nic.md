@@ -5,9 +5,8 @@ desc: In this talk, we will reflect on the current state of deploying production
 image: /assets/images/speakers/small/nic.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 44807823
 ---
-
-<iframe src="http://player.vimeo.com/video/44807823?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

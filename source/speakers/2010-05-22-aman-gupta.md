@@ -4,9 +4,8 @@ meta: Memprof - The ruby level memory profiler
 desc: Most recently, Aman has been hacking on performance improvements to MRI, and tools for the VM such as perftools.rb, a sampling profiler for ruby code based on google-perftools, and gdb.rb, a MRI specific version of gdb.
 year: 2010
 author: GORUCO
+vimeo_video_id: 12748731
 ---
-
-<iframe src="http://player.vimeo.com/video/12748731?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Ever wondered why your ruby script uses so much RAM? Tired of having god restart your rails app every few hours?
 

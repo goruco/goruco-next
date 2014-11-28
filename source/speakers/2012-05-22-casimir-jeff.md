@@ -6,9 +6,8 @@ desc: Here's the quick story of what's worked, what hasn't, and the lessons lear
 image: /assets/images/speakers/small/jeff.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45132111
 ---
-
-<iframe src="http://player.vimeo.com/video/45132111?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

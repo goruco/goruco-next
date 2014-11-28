@@ -5,9 +5,8 @@ desc: We'll take a Grape API from zero to cache in 10-minutes. This cookbook inc
 image: /assets/images/speakers/small/daniel.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45132110
 ---
-
-<iframe src="http://player.vimeo.com/video/45132110?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

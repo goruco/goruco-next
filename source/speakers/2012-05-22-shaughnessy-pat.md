@@ -5,9 +5,8 @@ desc: In this micro talk, I'll review the basic theory behind hash functions and
 image: /assets/images/speakers/small/pat.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45095659
 ---
-
-<iframe src="http://player.vimeo.com/video/45095659?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

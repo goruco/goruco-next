@@ -5,9 +5,8 @@ desc: More and more developers are facing the challenge of organizing and deploy
 image: /assets/images/speakers/small/luke.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45094222
 ---
-
-<iframe src="http://player.vimeo.com/video/45094222?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

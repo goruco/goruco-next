@@ -4,9 +4,8 @@ meta: Less - The Path to Better Design
 desc: Her lengthy and varied career has led her to Ruby, in which she has happily spent the last 6+ years crafting applications both large and small.
 author: GORUCO
 year: 2011
+vimeo_video_id: 26330100
 ---
-
-<iframe src="http://player.vimeo.com/video/26330100?title=0&amp;byline=0&amp;portrait=0" width="100%" height="390px" frameborder="0" ></iframe>
 
 The concrete principles of object-oriented design are useful but are built upon powerful concepts that the principles tend to obscure. When design principles become goals in and of themselves, object-oriented design gets a bad name and applications suffer.
 

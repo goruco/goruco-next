@@ -5,9 +5,8 @@ desc: How to build your own online maps and free yourself from Google Maps limit
 image: /assets/images/speakers/small/seb.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45132112
 ---
-
-<iframe src="http://player.vimeo.com/video/45132112?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

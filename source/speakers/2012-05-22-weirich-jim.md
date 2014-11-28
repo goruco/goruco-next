@@ -5,9 +5,8 @@ desc: In this talk we will cover the "hidden" features of Rake that are not typi
 image: /assets/images/speakers/small/jim.jpg
 author: GORUCO
 year: 2012
+vimeo_video_id: 45132438
 ---
-
-<iframe src="http://player.vimeo.com/video/45132438?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ###Talk Description
 

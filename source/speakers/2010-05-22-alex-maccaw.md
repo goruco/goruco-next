@@ -5,9 +5,8 @@ desc: Bowline’s author will take you through creating beautiful interfaces in 
 
 year: 2010
 author: GORUCO
+vimeo_video_id: 12793105
 ---
-
-<iframe src="http://player.vimeo.com/video/12793105?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 If you’ve ever wished creating desktop application was as easy as creating a Rails site, then this session is for you. Developed in a real business environment, Bowline is a Ruby desktop framework that is aiming to be the Rails of the desktop world.
 
