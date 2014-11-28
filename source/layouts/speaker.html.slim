@@ -34,7 +34,7 @@
           iframe width="560" height="315" src="//www.youtube.com/embed/#{current_page.data.youtube_video_id}" frameborder="0" allowfullscreen
       - if current_page.data.vimeo_video_id.present?
         div.iframe-video-wrapper.vimeo
-          iframe src="//player.vimeo.com/video/#{current_page.data.vimeo_video_id}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+          iframe src="//player.vimeo.com/video/#{current_page.data.vimeo_video_id}?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
       == yield
 
 = partial 'ratings'
