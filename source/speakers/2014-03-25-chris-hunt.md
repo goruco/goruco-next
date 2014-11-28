@@ -6,7 +6,7 @@ image: /assets/images/speakers/2014/chris_hunt.jpg
 author: GORUCO
 year: 2014
 twitter: chrishunt
-ballot: http://ballot.io/ballots/how-was-secrets-of-a-world-memory-champion
+vimeo_video_id: 102226408
 ---
 
 ###Talk Synopsis

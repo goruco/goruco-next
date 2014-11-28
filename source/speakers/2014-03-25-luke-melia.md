@@ -6,7 +6,7 @@ image: /assets/images/speakers/2014/luke_melia.jpg
 author: GORUCO
 year: 2014
 twitter: lukemelia
-ballot: http://ballot.io/ballots/how-was-growing-a-tech-community
+vimeo_video_id: 101020270
 ---
 
 ###Talk Synopsis

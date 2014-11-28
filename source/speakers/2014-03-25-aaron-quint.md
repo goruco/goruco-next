@@ -6,7 +6,7 @@ image: /assets/images/speakers/2014/aaron_quint.jpg
 author: GORUCO
 year: 2014
 twitter: aq
-ballot: http://ballot.io/ballots/how-was-the-future-of-ruby-performance-tooling
+vimeo_video_id: 101415184
 ---
 
 ###Talk Synopsis
@@ -32,7 +32,7 @@ I'll also give a sneak preview of some tools we've been working on that are not 
 
 
 ###Biography
-Aaron Quint was born and raised in Brooklyn, NY. Despite spending some time in the Bay Area, he realized he couldn't live without good bagels, so he moved back home. He spends his time leading the talented team at Paperless Post and contributing to Open Source Ruby, JavaScript and Go projects. 
+Aaron Quint was born and raised in Brooklyn, NY. Despite spending some time in the Bay Area, he realized he couldn't live without good bagels, so he moved back home. He spends his time leading the talented team at Paperless Post and contributing to Open Source Ruby, JavaScript and Go projects.
 
 He blogs at [dev.paperlesspost.com](http://dev.paperlesspost.com/) and [quirkey.com/blog](http://quirkey.com/blog)
 

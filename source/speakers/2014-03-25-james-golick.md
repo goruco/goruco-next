@@ -6,7 +6,7 @@ image: /assets/images/speakers/2014/james_golick.jpg
 author: GORUCO
 year: 2014
 twitter: jamesgolick
-ballot: http://ballot.io/ballots/how-was-how-to-debug-anything
+vimeo_video_id: 102226493
 ---
 
 ###Talk Synopsis

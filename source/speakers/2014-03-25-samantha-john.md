@@ -1,12 +1,12 @@
 ---
 title: Samantha John, Jason Brennan
 meta: Designing a better Programmer Community
-desc: 
+desc:
 image: /assets/images/speakers/2014/placeholder.jpg
 author: GORUCO
 year: 2014
 twitter: hopscotch
-ballot: http://ballot.io/ballots/how-was-designing-a-better-programmer-community
+vimeo_video_id: 101020272
 ---
 
 ###Talk Synopsis

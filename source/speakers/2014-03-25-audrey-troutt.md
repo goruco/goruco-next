@@ -6,11 +6,11 @@ image: /assets/images/speakers/2014/audrey_troutt.jpg
 author: GORUCO
 year: 2014
 twitter: auditty
-ballot: http://ballot.io/ballots/how-was-teaching-kids-to-code-on-raspberry-pi
+vimeo_video_id: 101030625
 ---
 
 ###Talk Synopsis
-Back in September 2013 I taught a class of 12 middle-school aged girls to write code in Scratch on the Raspberry Pi and program simple electronic circuits. This was a workshop for  the Philadelphia non-profit TechGirlz. 
+Back in September 2013 I taught a class of 12 middle-school aged girls to write code in Scratch on the Raspberry Pi and program simple electronic circuits. This was a workshop for  the Philadelphia non-profit TechGirlz.
 
 I created 5 structured activities using Scratch and simple electronics that covered both good programming principles and the basics of electronic circuits. https://github.com/atroutt/scratch-pi
 

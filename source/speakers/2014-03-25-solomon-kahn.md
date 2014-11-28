@@ -1,12 +1,12 @@
 ---
 title: Solomon Kahn
 meta: BI Tooling with Rails
-desc: 
+desc:
 image: /assets/images/speakers/2014/solomon_kahn.jpg
 author: GORUCO
 year: 2014
 twitter: solomonkahn
-ballot: http://ballot.io/ballots/how-was-bi-tooling-with-rails
+vimeo_video_id: 101025640
 ---
 
 ###Talk Synopsis

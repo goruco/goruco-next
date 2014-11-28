@@ -6,7 +6,7 @@ image: /assets/images/speakers/2014/mm.jpg
 author: GORUCO
 year: 2014
 twitter: ehm_may
-ballot: http://ballot.io/ballots/how-was-edge-caching-dynamic-rails-apps
+vimeo_video_id: 101015190
 ---
 
 ###Talk Synopsis

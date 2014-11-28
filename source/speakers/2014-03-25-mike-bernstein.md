@@ -6,7 +6,7 @@ image: /assets/images/speakers/2014/bernstein.jpg
 author: GORUCO
 year: 2014
 twitter: mrb_bk
-ballot: http://ballot.io/ballots/how-was-know-your-types
+vimeo_video_id: 101415185
 ---
 
 ###Talk Synopsis

@@ -6,7 +6,7 @@ image: /assets/images/speakers/2014/andrew_turley.jpg
 author: GORUCO
 year: 2014
 twitter: casio_juarez
-ballot: http://ballot.io/ballots/how-was-what-we-can-learn-from-cobol
+vimeo_video_id: 102634629
 ---
 
 ###Talk Synopsis
