@@ -24,6 +24,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+    font-family: 'goruco';
+    src:url('fonts/goruco.eot?2fbjk');
+    src:url('fonts/goruco.eot?#iefix2fbjk') format('embedded-opentype'),
+        url('fonts/goruco.woff?2fbjk') format('woff'),
+        url('fonts/goruco.ttf?2fbjk') format('truetype'),
+        url('fonts/goruco.svg?2fbjk#goruco') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="goruco-"], [class*=" goruco-"] {
+  font-family: 'goruco';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.goruco-logo:before {
+    content: "\e600";
+}
+
 .icon-user:before {
   content: "\e036";
 }

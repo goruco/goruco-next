@@ -1,6 +1,6 @@
 ---
 title: Josh Knowles
-image: /assets/images/people/knowles.jpeg
+image: /assets/images/people/knowles.jpg
 link: joshknowles.com
 github: joshknowles
 twitter: joshknowles

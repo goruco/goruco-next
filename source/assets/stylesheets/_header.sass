@@ -2,14 +2,13 @@ header
   overflow: hidden
   margin-top: 10px
   nav
-    float: left
     li
       float: left
       a
         margin: 20px 5px
         display: block
         font-weight: bold
-        color: $black
+        color: $white
         padding: 0px 7px
         +border-radius(2px)
         +make-transition
@@ -28,44 +27,11 @@ header
           +make-transition
           &:hover
             background-color: $white
-  p#date
+  ul#menu
     float: right
-    font-weight: bold
-    margin: 20px 0
     color: $white
     @include media($compact)
       text-align: left
       float: left
       margin-left: 20px
 
-.image_panel
-  // background: $gray url(/assets/images/bg/nyc-wide.jpg) center center no-repeat
-  height: 300px
-  margin-bottom: -70px
-  overflow: hidden
-  @include media($compact)
-    height: 250px
-  h1
-    text-align: center
-    color: #fff
-    font-weight: 100
-    font-size: 80px
-
-    padding-top: 120px
-    padding: 20px
-    width: 400px
-    margin: 46px auto 0 auto
-    +make-transition
-    @include media($compact)
-      font-size: 70px
-      width: auto
-      text-align: left
-      margin-top: 0
-    a
-      color: $white
-      &:hover
-        color: $red
-      &:active
-        color: $black
-
-    // text-shadow: 1px 1px 1px rgba(0, 0 , 0, .50)

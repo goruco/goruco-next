@@ -1,0 +1,11 @@
+nav
+  .marque
+    @include span-columns(6)
+    h1, h2, h3, h4, h5, p
+      color: $white
+      display: inline-block
+    @include media($compact)
+      h1, h2, h3, h4, h5, p
+        display: none
+  .marque
+    @include span-columns(6)

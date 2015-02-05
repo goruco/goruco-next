@@ -6,6 +6,10 @@ meta: News about the GORUCO conference.
 h1 News
 
 section.list_index
+  - top_article = blog('news').articles.first
+  h3 = top_article.data.title
+  p  = top_article.body
+  br
   ul
     - blog('news').articles.each do |article|
       li

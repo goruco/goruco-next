@@ -1,0 +1,15 @@
+doctype html
+/ = partial 'prefix'
+html.nojs
+  | <!--<![endif]-->
+  head
+    = partial 'head'
+  body.landing-page
+    = partial 'nav'
+    .container.home
+      == yield
+      .clearfix
+
+    = javascript_include_tag 'app'
+    = partial 'google_analytics'
+    / = partial 'partials/_disqus'
