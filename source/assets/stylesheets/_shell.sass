@@ -2,10 +2,12 @@ body
   @include background(url("/assets/images/bg/purple-tone-bg.jpg"))
   background-position: center 0px, center top
   background-repeat: no-repeat, repeat-y
-  background-size: 100% auto
+  background-size: contain
   margin: 0 auto
   @include media($compact)
     border: 0
+    @include background(url("/assets/images/bg/purple-tone-bg-sm.jpg"))
+    background-size: cover
 
 .container
   @include outer-container
