@@ -1,7 +1,7 @@
 ---
 title: Cory Forsyth
-image: /assets/images/people/cory.png
-link: outside.in
+image: /assets/images/people/cory.jpg
+link: coryforsyth.com
 github: bantic
 twitter: bantic
 ---
