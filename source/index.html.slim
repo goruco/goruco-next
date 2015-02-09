@@ -12,6 +12,13 @@ section.brief
     div style="position: absolute; left: -5000px;"
       input type="text" name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" value=""
 
+
+section.news
+  h1 News
+  - top_article = blog('news').articles.first
+  h3 = top_article.data.title
+  p  = top_article.body
+
 section.past-speakers
   h1 Past Talks
   .talks-sidebar
