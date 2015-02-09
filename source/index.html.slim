@@ -12,6 +12,18 @@ section.brief
     div style="position: absolute; left: -5000px;"
       input type="text" name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" value=""
 
+section.sponsorship
+  h5
+    | For sponsorship information and prospectus, please email 
+    a href="mailto:sponsors@goruco.com" sponsors@goruco.com
+
+section.info
+  h5
+    ' The GORUCO organizers strive for the safety and comfort of everyone at our event.
+    ' For more information, please read our
+    a href="/code-of-conduct" Code of Conduct
+    ' .
+
 section.news
   h1 News
   - top_article = blog('news').articles.first
@@ -55,18 +67,6 @@ section.organizers id='organizers'
       - if article.data.link.present?
         a href="http://#{article.data.link}"
           = "#{article.data.link}"
-
-section.sponsorship
-  p
-    | For sponsorship information and prospectus, please email 
-    a href="mailto:sponsors@goruco.com" sponsors@goruco.com
-
-section.info
-  p
-    ' The GORUCO organizers strive for the safety and comfort of everyone at our event.
-    ' For more information, please read our
-    a href="/code-of-conduct" Code of Conduct
-    ' .
 
 section.footer
   .copyright
