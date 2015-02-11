@@ -12,23 +12,26 @@ section.brief
     div style="position: absolute; left: -5000px;"
       input type="text" name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" value=""
 
+section.news
+  - top_article = blog('news').articles.first
+  h1 = top_article.data.title
+  p  = top_article.body
+
 section.sponsorship
-  h5
-    | For sponsorship information and prospectus, please email 
+  h1 Sponsorship
+  p
+    | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
+    | We have openings for sponsorship of this year's
+    | conference at all levels.  Get in touch with us, we'd love to speak with you! 
     a href="mailto:sponsors@goruco.com" sponsors@goruco.com
 
 section.info
-  h5
+  h1 Code of Conduct
+  p
     ' The GORUCO organizers strive for the safety and comfort of everyone at our event.
     ' For more information, please read our
     a href="/code-of-conduct" Code of Conduct
     ' .
-
-section.news
-  h1 News
-  - top_article = blog('news').articles.first
-  h3 = top_article.data.title
-  p  = top_article.body
 
 section.past-speakers
   h1 Past Talks
