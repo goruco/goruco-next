@@ -2,11 +2,11 @@ ul.dots
   margin-left: 60px
   margin-bottom: 30px
   margin-top: 30px
-  @include media($compact)
+  @media #{$mq-sm}
     margin-left: 20px
     margin-right: 0px
   li
-    border-left: 2px solid $white
+    border-left: 2px solid $color-white
     position: relative
     overflow: visible
     // margin-left: -13px
@@ -39,9 +39,9 @@ ul.dots
     font-size: 28px
     margin: 8px
     letter-spacing: 4px
-    &.icon-happy
+    &.icon-emoji-happy
       color: $rating-green
-    &.icon-sad
+    &.icon-emoji-sad
       color: $rating-red
-    &.icon-meh
+    &.icon-emoji-neutral
       color: $rating-amber

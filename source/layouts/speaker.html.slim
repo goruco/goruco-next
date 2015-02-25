@@ -3,12 +3,12 @@
     ul
       li
         a href="/speakers"
-          span.icon-wedge-left
+          span.icon-chevron-left
           ' Speakers
   section.post.speaker_detail
     header
-      h1= current_page.data.meta
-      .personal
+      h1.s4 = current_page.data.meta
+      .personal.s4
         - if current_page.data.image.present?
           img src=current_page.data.image alt=current_page.data.title onerror="this.style.display='none'" height=70 width=70
         h2= "Presented by: #{current_page.data.title}"
@@ -23,11 +23,11 @@
           a.rate href="#{current_page.data.ballot}/votes/new"
             | rate
           a href=current_page.data.ballot
-            li.icon-happy
+            li.icon-emoji-happy
           a href=current_page.data.ballot
-            li.icon-meh
+            li.icon-emoji-neutral
           a href=current_page.data.ballot
-            li.icon-sad
+            li.icon-emoji-sad
     article
       - if current_page.data.youtube_video_id.present?
         div.iframe-video-wrapper

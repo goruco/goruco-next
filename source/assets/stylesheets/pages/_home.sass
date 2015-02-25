@@ -1,38 +1,16 @@
-.pg-home-hero
+.pg-home-hero-wrap
   @include background(url("/assets/images/bg/hero.png"))
   background-size: cover
+  text-align: center
 
-  @include media($compact)
-    border: 0
-    @include background(url("/assets/images/bg/purple-tone-bg-sm.jpg"))
-    background-size: cover
+.pg-home-hero
+  padding: $pg-home-hero-padding 0
+  margin-bottom: $space*4
+  border-bottom: $border-style-thick $color-accent
 
-  input[type=email]
-    background: transparent
-    border: 1px solid $lightpurple
-    border-radius: 3px
-    display: inline-block
-    width: 300px
-    color: $white
-    @include media($compact)
-      width: 250px
-  input[type=submit]
-    display: inline-block
-    background-color: $red
-    background-image: none
-    text-shadow: none
-    box-shadow: none
-    color: $white
-    border: none
-    border-radius: 3px
-    padding: 9px 18px
-    margin: 0px 0px 5px 10px
-    &:active, &:hover, &:focus
-      background-color: $red
-      background-image: none
-      text-shadow: none
-      box-shadow: none
-      color: $white
-  .signup-form
-    margin: 20px 30px
+  @media #{$mq-med}
+    margin-top: $g-header-height * -1
+    padding: $pg-home-hero-padding+$g-header-height 0 $pg-home-hero-padding
 
+.pg-home-submit
+  width: 22rem

@@ -11,7 +11,7 @@
     font-size: 20px
     line-height: 25px
     margin: 10px
-    color: $white
+    color: $color-white
 
 #news_flash
   margin: 90px auto 0 auto
@@ -33,9 +33,9 @@
     font-size: 20px
     line-height: 25px
     padding: 0px
-    color: $white
+    color: $color-white
     margin: 10px
 
 #holding, #news_flash
-  @include media($compact)
+  @media #{$mq-sm}
     margin-top: 5px

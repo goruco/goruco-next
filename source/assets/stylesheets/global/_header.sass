@@ -1,0 +1,49 @@
+.g-header
+  line-height: $g-header-height
+  text-align: center
+
+  @media #{$mq-med}
+    text-align: left
+
+.g-header-logo
+  position: relative
+  z-index: 1
+  color: $color-white
+  font-weight: bold
+  width: $g-header-logo-width
+
+  @media #{$mq-med}
+    float: left
+
+.g-header-nav
+  position: relative
+  width: 100%
+  border-bottom: $border-style-thick $color-accent
+
+  @media #{$mq-med}
+    padding-left: $g-header-logo-width
+    text-align: right
+
+  li
+    display: inline-block
+
+  a
+    font-weight: normal
+    padding: 0 $space*2
+    display: block
+    color: $color-white
+    +border-radius(2px)
+    +make-transition
+
+    &#logo
+      margin: 10px 10px 0 10px
+      display: block
+      width: 40px
+      height: 40px
+      background: transparent url(/assets/images/icons/goruco.png) center center no-repeat
+      background-size: 24px 25px
+      text-indent: -99999px
+      +border-radius(400px)
+      +make-transition
+      &:hover
+        text-decoration: underline
