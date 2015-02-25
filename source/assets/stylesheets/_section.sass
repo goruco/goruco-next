@@ -1,16 +1,5 @@
 section
   @include span-columns(12)
-section.news, section.about
-  border-bottom: 1px solid $line
-section.sponsorgrid
-  border-top: 1px solid $line
-section.news
-  padding-bottom: 20px
-
-section.news,
-  background-color: $white
-  h1, h2, h3, h4, h5, p
-    color: $black
 
 section.info, section.sponsorship
   background-color: $white
@@ -29,48 +18,6 @@ section.past-speakers
     @include span-columns(8)
     @include media($compact)
       @include span-columns(1)
-
-section.brief
-  background-color: transparent
-  margin-top: 140px
-  margin-bottom: 200px
-  @include media($intermediate)
-    margin-top: 140px
-    margin-bottom: 30px
-  @include media($small)
-    margin-top: 40px
-    margin-bottom: 50px
-  @include media($compact)
-    margin-top: 0px
-    margin-bottom: 0px
-  input[type=email]
-    background: transparent
-    border: 1px solid $lightpurple
-    border-radius: 3px
-    display: inline-block
-    width: 300px
-    color: $white
-    @include media($compact)
-      width: 250px
-  input[type=submit]
-    display: inline-block
-    background-color: $red
-    background-image: none
-    text-shadow: none
-    box-shadow: none
-    color: $white
-    border: none
-    border-radius: 3px
-    padding: 9px 18px
-    margin: 0px 0px 5px 10px
-    &:active, &:hover, &:focus
-      background-color: $red
-      background-image: none
-      text-shadow: none
-      box-shadow: none
-      color: $white
-  .signup-form
-    margin: 20px 30px
 
 section.organizers
   background-color: $blacker

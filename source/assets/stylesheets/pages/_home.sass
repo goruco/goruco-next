@@ -1,0 +1,38 @@
+.pg-home-hero
+  @include background(url("/assets/images/bg/hero.png"))
+  background-size: cover
+
+  @include media($compact)
+    border: 0
+    @include background(url("/assets/images/bg/purple-tone-bg-sm.jpg"))
+    background-size: cover
+
+  input[type=email]
+    background: transparent
+    border: 1px solid $lightpurple
+    border-radius: 3px
+    display: inline-block
+    width: 300px
+    color: $white
+    @include media($compact)
+      width: 250px
+  input[type=submit]
+    display: inline-block
+    background-color: $red
+    background-image: none
+    text-shadow: none
+    box-shadow: none
+    color: $white
+    border: none
+    border-radius: 3px
+    padding: 9px 18px
+    margin: 0px 0px 5px 10px
+    &:active, &:hover, &:focus
+      background-color: $red
+      background-image: none
+      text-shadow: none
+      box-shadow: none
+      color: $white
+  .signup-form
+    margin: 20px 30px
+

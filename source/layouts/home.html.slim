@@ -6,9 +6,8 @@ html.nojs
     = partial 'head'
   body.landing-page
     = partial 'nav'
-    .container.home
-      == yield
-      .clearfix
+    == yield
+    .clearfix
 
     = javascript_include_tag 'app'
     = partial 'google_analytics'

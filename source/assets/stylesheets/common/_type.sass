@@ -1,13 +1,20 @@
-body, h1, h2, h3, h4, h5, p
+html
+  font-size: 10px
+
+body, input, select, textarea
+  font-size: 1.6rem
   font-family: "museo-sans", "helvetica neue", "helvetica", sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
   color: $color-type
+
+h1 
+  font-size: 4.2rem 
 
 body.landing-page
   h1, h2, h3, h4, h5, p
     color: $white
   h1
-    font-size: 4em
-    font-weight: 700
     @include media($small)
       font-size: 3em
       line-height: 1em
@@ -29,7 +36,6 @@ body.landing-page
 h1, h2, h3, h4, h5, p
   margin: 20px 30px
 h1
-  font-size: 72px
   line-height: 80px
   font-weight: 700
   margin: 20px 30px
@@ -54,3 +60,6 @@ p
 
 a
   color: $red
+
+.type-accent
+  color: $color-accent 

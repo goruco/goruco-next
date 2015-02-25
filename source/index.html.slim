@@ -3,80 +3,86 @@ layout: 'home'
 title: 'GORUCO'
 ---
 
-section.brief
-  h1 GORUCO is a one-day technical conference aimed at highly motivated programmers.
-  h3 Get Speaker and Ticket Updates:
-  form.signup-form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate"
-    input.signup.required.email type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address"
-    input.signup type="submit" value="Update Me" name="subscribe" id="mc-embedded-subscribe"
-    div style="position: absolute; left: -5000px;"
-      input type="text" name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" value=""
+div.pg-home-hero
+  div.container
+    h1 
+      span GORUCO 
+      span.type-accent 2015
 
-section.news
-  - top_article = blog('news').articles.first
-  h1 = top_article.data.title
-  p  = top_article.body
+    h3 GORUCO is a one-day technical conference aimed at highly motivated programmers.
+    h3 Get Speaker and Ticket Updates:
+    form.signup-form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate"
+      input.signup.required.email type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address"
+      input.signup type="submit" value="Update Me" name="subscribe" id="mc-embedded-subscribe"
+      div style="position: absolute; left: -5000px;"
+        input type="text" name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" value=""
 
-section.sponsorship
-  h1 Sponsorship
-  p
-    | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
-    | We have openings for sponsorship of this year's
-    | conference at all levels.  Get in touch with us, we'd love to speak with you! 
-    a href="mailto:sponsors@goruco.com" sponsors@goruco.com
+div.container
+  section.news
+    - top_article = blog('news').articles.first
+    h1 = top_article.data.title
+    p  = top_article.body
 
-section.info
-  h1 Code of Conduct
-  p
-    ' The GORUCO organizers strive for the safety and comfort of everyone at our event.
-    ' For more information, please read our
-    a href="/code-of-conduct" Code of Conduct
-    ' .
+  section.sponsorship
+    h1 Sponsorship
+    p
+      | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
+      | We have openings for sponsorship of this year's
+      | conference at all levels.  Get in touch with us, we'd love to speak with you! 
+      a href="mailto:sponsors@goruco.com" sponsors@goruco.com
 
-section.past-speakers
-  h1 Past Talks
-  .talks-sidebar
-    - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+  section.info
+    h1 Code of Conduct
+    p
+      ' The GORUCO organizers strive for the safety and comfort of everyone at our event.
+      ' For more information, please read our
+      a href="/code-of-conduct" Code of Conduct
+      ' .
+
+  section.past-speakers
+    h1 Past Talks
+    .talks-sidebar
+      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+      ul
+        - speaker_years[2014].each do |article|
+          li
+            h5
+              a href=article.url
+                = article.data.meta
+            p= article.data.title
+    .talks-panel
+      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+      - article = speaker_years[2014].first
+      - if article.data.youtube_video_id.present?
+        div.iframe-video-wrapper
+          iframe width="560" height="315" src="//www.youtube.com/embed/#{article.data.youtube_video_id}" frameborder="0" allowfullscreen
+      - if article.data.vimeo_video_id.present?
+        div.iframe-video-wrapper.vimeo
+          iframe src="//player.vimeo.com/video/#{article.data.vimeo_video_id}?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+      p = article.body
+
+  section.organizers id='organizers'
+    h1 Organizers
     ul
-      - speaker_years[2014].each do |article|
-        li
-          h5
-            a href=article.url
-              = article.data.meta
-          p= article.data.title
-  .talks-panel
-    - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
-    - article = speaker_years[2014].first
-    - if article.data.youtube_video_id.present?
-      div.iframe-video-wrapper
-        iframe width="560" height="315" src="//www.youtube.com/embed/#{article.data.youtube_video_id}" frameborder="0" allowfullscreen
-    - if article.data.vimeo_video_id.present?
-      div.iframe-video-wrapper.vimeo
-        iframe src="//player.vimeo.com/video/#{article.data.vimeo_video_id}?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
-    p = article.body
+    - blog('organizers').articles.each do |article|
+      li.block
+        - if article.data.image.present?
+          img src=article.data.image alt=article.data.title onerror="this.style.display='none'" height=100 width=100
+        h5= "#{article.data.title}"
+        - if article.data.twitter.present?
+          a href="http://twitter.com/#{article.data.twitter}"
+            = "@#{article.data.twitter}"
+          br
+        - if article.data.link.present?
+          a href="http://#{article.data.link}"
+            = "#{article.data.link}"
 
-section.organizers id='organizers'
-  h1 Organizers
-  ul
-  - blog('organizers').articles.each do |article|
-    li.block
-      - if article.data.image.present?
-        img src=article.data.image alt=article.data.title onerror="this.style.display='none'" height=100 width=100
-      h5= "#{article.data.title}"
-      - if article.data.twitter.present?
-        a href="http://twitter.com/#{article.data.twitter}"
-          = "@#{article.data.twitter}"
-        br
-      - if article.data.link.present?
-        a href="http://#{article.data.link}"
-          = "#{article.data.link}"
-
-section.footer
-  .copyright
-    h5 © GORUCO 2015
-  .info
-    ' Questions? Email us at:
-    a href="mailto:info@goruco.com" info@goruco.com
-    '  or tweet at:
-    a href="http://twitter.com/goruco" @goruco
-    ' .
+  section.footer
+    .copyright
+      h5 © GORUCO 2015
+    .info
+      ' Questions? Email us at:
+      a href="mailto:info@goruco.com" info@goruco.com
+      '  or tweet at:
+      a href="http://twitter.com/goruco" @goruco
+      ' .
