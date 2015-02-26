@@ -8,7 +8,7 @@ section.list_index
 
   - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
   - speaker_years.each do |year, articles|
-    h2= year
+    h3= year
     ul
       - articles.each do |article|
         li
