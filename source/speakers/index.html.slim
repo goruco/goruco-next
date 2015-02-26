@@ -4,7 +4,7 @@ meta: Index of the speakers at GORUCO.
 ---
 
 section.list_index
-  h1 Speakers
+  h1 Past Talks
 
   - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
   - speaker_years.each do |year, articles|
@@ -15,4 +15,4 @@ section.list_index
           p
             a href=article.url
               = article.data.meta
-          p= article.data.title
+            span.s1-left = article.data.title

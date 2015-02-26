@@ -7,7 +7,7 @@ div.pg-home-hero-wrap
   div.container
     div.pg-home-hero
       header.s4
-        h1 
+        h1.s1
           span GORUCO 
           span.type-accent 2015
 
@@ -30,7 +30,9 @@ div.container
     h1 News
     h2 = top_article.data.title
     p  = top_article.body
-    a.pos-right href="/news" See All News
+    a.pos-right href="/news" 
+      ' See All News
+      i.icon-chevron-right
 
   section.sponsorship.mod-section
     h1 Sponsorship
@@ -41,16 +43,20 @@ div.container
       a href="mailto:sponsors@goruco.com" sponsors@goruco.com
 
   section.past-speakers.mod-section
-    h1 Past Speaker Videos
+    h1 2014 Past Talks
     .talks-sidebar
       - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
       ul
         - speaker_years[2014].each do |article|
           li
-            h4
+            p 
               a href=article.url
                 = article.data.meta
-            p= article.data.title
+              span.s1-left = article.data.title
+      a.pos-right href="/speakers" 
+        ' See All Past Talks
+        i.icon-chevron-right
+
     .talks-panel
       - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
       - article = speaker_years[2014].first
@@ -59,7 +65,7 @@ div.container
     h1 Organizers
     ul
       - blog('organizers').articles.each do |article|
-        li.block.l4
+        li.block.l4.mod-organizer
           - if article.data.image.present?
             img src=article.data.image alt=article.data.title onerror="this.style.display='none'" height=100 width=100
           div.mod-organizer-info

@@ -25,6 +25,15 @@
     padding: $space
     float: left
 
+    &:nth-child(odd)
+      clear: both
+
   @media #{$mq-med}
     width: 25%
+
+    &:nth-child(odd)
+      clear: none
+
+    &:nth-child(5)
+      clear: both
 
