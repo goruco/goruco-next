@@ -8,9 +8,26 @@
   margin-bottom: $space*4
   border-bottom: $border-style-thick $color-accent
 
-  @media #{$mq-med}
-    margin-top: $g-header-height * -1
-    padding: $pg-home-hero-padding+$g-header-height 0 $pg-home-hero-padding
+
+.pg-home-input
+  @media #{$mq-sm}
+    border-bottom-right-radius: 0
+    border-top-right-radius: 0
 
 .pg-home-submit
+  display: block
+  margin: 0 auto
   width: 22rem
+
+  @media #{$mq-sm}
+    width: auto
+    display: inline-block
+    margin-top: 0
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+
+
+.pg-home-get-updates-header
+  @media #{$mq-med}
+    display: inline-block
+    margin-right: $space*2
