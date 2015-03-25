@@ -15,13 +15,7 @@ div.pg-home-hero-wrap
 
       h3.type-weight-normal.s6 GORUCO is a 1-day conference for highly motivated programmers.
 
-
-      form.signup-form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate"
-        h3.s2.pg-home-get-updates-header Get Updates
-        input.signup.required.email.s3.ui-form-input-on-dark.pg-home-input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email"
-        input.signup.pg-home-submit.ui-btn type="submit" value="Update Me" name="subscribe" id="mc-embedded-subscribe"
-        div style="position: absolute; left: -5000px;"
-          input type="text" name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" value=""
+      a.ui-btn-round href="https://ti.to/goruco/2015" Register Now 
 
 div.container
   section.news.mod-section
@@ -75,5 +69,14 @@ div.container
             - if article.data.link.present?
               a href="http://#{article.data.link}"
                 = "#{article.data.link}"
+
+  section.updates.mod-section id="updates"
+    h1 Updates
+    form.signup-form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate"
+      h3.s2.pg-home-get-updates-header Get Updates
+      input.signup.required.email.s3.ui-form-input-on-dark.pg-home-input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email"
+      input.signup.pg-home-submit.ui-btn type="submit" value="Update Me" name="subscribe" id="mc-embedded-subscribe"
+      div style="position: absolute; left: -5000px;"
+        input type="text" name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" value=""
 
   = partial 'footer'

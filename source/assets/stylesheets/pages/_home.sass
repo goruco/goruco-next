@@ -2,11 +2,11 @@
   @include background(url("/assets/images/bg/hero.png"))
   background-size: cover
   text-align: center
+  margin-top: -#{$g-header-height}
 
 .pg-home-hero
-  padding: $pg-home-hero-padding 0
+  padding: $pg-home-hero-padding + $g-header-height 0 $pg-home-hero-padding
   margin-bottom: $space*4
-  border-bottom: $border-style-thick $color-accent
 
 
 .pg-home-input

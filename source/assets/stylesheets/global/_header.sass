@@ -2,6 +2,9 @@
   line-height: $g-header-height
   text-align: center
 
+  @media #{$mq-med}
+    text-align: left
+
 .g-header-logo
   position: relative
   z-index: 1
@@ -9,16 +12,25 @@
   font-weight: bold
   width: $g-header-logo-width
 
+  @media #{$mq-med}
+    float: left
+  
+
 .g-header-nav
   position: relative
   width: 100%
-  border-bottom: $border-style-thick $color-accent
+  border-top: $border-style-thick $color-accent
+
+  @media #{$mq-med}
+    padding-left: $g-header-logo-width
+    text-align: right
 
   li
     display: inline-block
     margin: 0 $space*1.5
 
   a
+    font-size: $type-small
     font-weight: normal
     color: $color-white
     +make-transition
