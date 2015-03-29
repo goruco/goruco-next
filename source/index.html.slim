@@ -18,6 +18,22 @@ div.pg-home-hero-wrap
       a.ui-btn-round href="https://ti.to/goruco/2015" Register Now 
 
 div.container
+  section.past-speakers.mod-section
+    h1 Speakers
+    div
+      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+      ul.l-tile-wrap
+        - speaker_years[2015].each do |article|
+          li.l-tile-3
+            div.l-tile-content
+              img.pg-home-speaker-img src=article.data.image alt=article.data.title 
+              h3 = article.data.title
+              - if article.data.twitter.present?
+                a.pg-home-speaker-link href="http://twitter.com/#{article.data.twitter}" = article.data.twitter
+              - if article.data.website.present?
+                a.pg-home-speaker-link href=article.data.website = article.data.website
+              p.type-secondary.type-small = article.data.bio
+
   section.news.mod-section
     - top_article = blog('news').articles.first
     h1 News
