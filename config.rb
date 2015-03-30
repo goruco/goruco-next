@@ -75,7 +75,7 @@ activate :blog do |blog|
   blog.per_page = 10
 end
 
-(2007..2013).to_a.each do |year|
+(2007..2015).to_a.each do |year|
   proxy "/speakers/#{year}/index.html", "/speakers/year.html", locals: { year: year }
 end
 
