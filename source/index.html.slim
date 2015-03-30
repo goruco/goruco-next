@@ -3,6 +3,8 @@ layout: 'home'
 title: 'GORUCO'
 ---
 
+- speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+
 div.pg-home-hero-wrap
   div.container
     div.pg-home-hero
@@ -21,7 +23,6 @@ div.container
   section.past-speakers.mod-section
     h1 Speakers
     div
-      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
       ul.l-tile-wrap
         - speaker_years[2015].each do |article|
           li.l-tile-3
@@ -54,7 +55,6 @@ div.container
   section.past-speakers.mod-section
     h1 2014 Past Talks
     .talks-sidebar
-      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
       ul
         - speaker_years[2014].each do |article|
           li
@@ -67,7 +67,6 @@ div.container
         i.icon-chevron-right
 
     .talks-panel
-      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
       - article = speaker_years[2014].first
 
   section.organizers.mod-section id='organizers'
