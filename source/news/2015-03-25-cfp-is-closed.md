@@ -3,10 +3,7 @@ title: CFP is Closed
 author: Mike Dalessio
 ---
 
-### Thank You!
-
-In our nine years, we've never received more talk proposals than we
-got this year. Thank you to everyone who took the time to submit!
+In our nine years, we've never received more talk proposals than we got this year. Thank you to everyone who took the time to submit!
 
 
 ### What's Next?

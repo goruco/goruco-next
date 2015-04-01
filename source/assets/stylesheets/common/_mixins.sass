@@ -6,3 +6,14 @@
     font-size: 0
     clear: both
     height: 0
+
+@mixin truncate
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+  height: 1.2em
+
+  p
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap

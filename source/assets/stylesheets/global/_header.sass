@@ -19,7 +19,7 @@
 .g-header-nav
   position: relative
   width: 100%
-  border-top: $border-style-thick $color-accent
+  // border-top: $border-style-thick $color-accent
 
   @media #{$mq-med}
     padding-left: $g-header-logo-width
@@ -27,13 +27,16 @@
 
   li
     display: inline-block
-    margin: 0 $space*1.5
+    margin: 0 $space
 
   a
     font-size: $type-small
-    font-weight: normal
+    font-weight: bold
     color: $color-white
     +make-transition
+    &:hover
+      i
+        text-decoration: none
 
     &#logo
       margin: 10px 10px 0 10px
@@ -47,6 +50,3 @@
       +make-transition
       &:hover
         text-decoration: underline
-
-  i 
-    margin-left: $space

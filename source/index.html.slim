@@ -8,16 +8,28 @@ title: 'GORUCO'
 div.pg-home-hero-wrap
   div.container
     div.pg-home-hero
-      header.s4
-        h1.s1
+      header.s3
+        h1.s0
           span GORUCO 
           span.type-accent 2015
 
         h2.type-weight-normal June 20th, New York, NY
 
-      h3.type-weight-normal.s6 GORUCO is a 1-day conference for highly motivated programmers.
+      p.type-secondary.s4 GORUCO is a 1-day conference for highly motivated programmers.
 
       a.ui-btn-round href="https://ti.to/goruco/2015" Register Now 
+
+div.mod-section-light.s4-pad-bottom
+  div.container
+    section.news.s4-pad-top.s4.pos-clearfix
+      - top_article = blog('news').articles.first
+      div.pg-home-news-left
+        h1.s0 News
+        a href="/news" 
+          ' Read More
+      div.pg-home-news-right
+        h3 = top_article.data.title
+        div.type-secondary.type-truncate = top_article.body
 
 div.container
   section.past-speakers.mod-section
@@ -35,15 +47,6 @@ div.container
                 a.pg-home-speaker-link href=article.data.website = article.data.website
               p.type-secondary.type-small = article.data.bio
     h3.type-center More speakers to be announced later this week.
-
-  section.news.mod-section
-    - top_article = blog('news').articles.first
-    h1 News
-    h2 = top_article.data.title
-    p  = top_article.body
-    a.pos-right href="/news" 
-      ' See All News
-      i.icon-chevron-right
 
   section.sponsorship.mod-section
     h1 Sponsorship
