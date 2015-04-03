@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/rachel_warbelow_16-9.png
 twitter: rwarbelow
 location: Denver, CO
-order: 9
+order: 7
 year: 2015
 ---
