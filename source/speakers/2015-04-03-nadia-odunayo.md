@@ -1,0 +1,10 @@
+---
+title: Nadia Odunayo
+bio: Nadia is a software engineer at Pivotal Labs London, recently working on the Cloud Foundry team. She joined the company after graduating from a software development bootcamp. Before that, while studying at Oxford for a degree in Economics, she fell in love with game theory. Nadia is a tech startup enthusiast, and in her spare time she runs The StoryGraph, an online creative writing publication.
+author: GORUCO
+image: /assets/images/speakers/2015/nadia_odunayo_16-9.jpg
+twitter: nodunayo
+location: London, UK
+order: 12
+year: 2015
+---
