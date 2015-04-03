@@ -6,7 +6,6 @@
 
 .pg-home-hero
   padding: $pg-home-hero-padding + $g-header-height 0 $pg-home-hero-padding
-  margin-bottom: $space*4
 
 
 .pg-home-input
@@ -31,3 +30,22 @@
   @media #{$mq-med}
     display: inline-block
     margin-right: $space*2
+
+.pg-home-news-left
+  @media #{$mq-med}
+    float: left
+    width: $pg-home-news-left-width
+
+.pg-home-news-right
+  @media #{$mq-med}
+    float: right
+    width: 100% - $pg-home-news-left-width
+
+
+.pg-home-speaker-img
+  max-height: 17.5rem
+
+.pg-home-speaker-link
+  display: block
+  margin-bottom: $space
+

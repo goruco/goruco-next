@@ -3,29 +3,50 @@ layout: 'home'
 title: 'GORUCO'
 ---
 
+- speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+
 div.pg-home-hero-wrap
   div.container
     div.pg-home-hero
-      header.s4
-        h1.s1
+      header.s3
+        h1.s0
           span GORUCO 
           span.type-accent 2015
 
         h2.type-weight-normal June 20th, New York, NY
 
-      h3.type-weight-normal.s6 GORUCO is a 1-day conference for highly motivated programmers.
+      p.type-secondary.s4 GORUCO is a 1-day conference for highly motivated programmers.
 
       a.ui-btn-round href="https://ti.to/goruco/2015" Register Now 
 
+div.mod-section-light.s4-pad-bottom
+  div.container
+    section.news.s4-pad-top.s4.pos-clearfix
+      - top_article = blog('news').articles.first
+      div.pg-home-news-left
+        h1.s0 News
+        a href="/news" 
+          ' Read More
+      div.pg-home-news-right
+        h3 = top_article.data.title
+        div.type-secondary.type-truncate = top_article.body
+
 div.container
-  section.news.mod-section
-    - top_article = blog('news').articles.first
-    h1 News
-    h2 = top_article.data.title
-    p  = top_article.body
-    a.pos-right href="/news" 
-      ' See All News
-      i.icon-chevron-right
+  section.past-speakers.mod-section
+    h1 Speakers
+    div
+      ul.l-tile-wrap
+        - speaker_years[2015].each do |article|
+          li.l-tile-3
+            div.l-tile-content
+              img.pg-home-speaker-img src=article.data.image alt=article.data.title 
+              h3 = article.data.title
+              - if article.data.twitter.present?
+                a.pg-home-speaker-link href="http://twitter.com/#{article.data.twitter}" = article.data.twitter
+              - if article.data.website.present?
+                a.pg-home-speaker-link href=article.data.website = article.data.website
+              p.type-secondary.type-small = article.data.bio
+    h3.type-center More speakers to be announced later this week.
 
   section.sponsorship.mod-section
     h1 Sponsorship
@@ -38,7 +59,6 @@ div.container
   section.past-speakers.mod-section
     h1 2014 Past Talks
     .talks-sidebar
-      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
       ul
         - speaker_years[2014].each do |article|
           li
@@ -51,7 +71,6 @@ div.container
         i.icon-chevron-right
 
     .talks-panel
-      - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
       - article = speaker_years[2014].first
 
   section.organizers.mod-section id='organizers'
