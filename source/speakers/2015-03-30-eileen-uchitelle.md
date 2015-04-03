@@ -5,5 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/eileen_uchitelle_16-9.jpg
 twitter: eileencodes
 location: Kingston, NY
+order: 2
 year: 2015
 ---

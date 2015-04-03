@@ -5,5 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/zach_feldman_16-9.png
 twitter: zachfeldman
 location: New York, NY
+order: 3
 year: 2015
 ---

@@ -5,5 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/robbie_clutton_16-9.png
 twitter: robb1e
 location: London, UK
+order: 1
 year: 2015
 ---

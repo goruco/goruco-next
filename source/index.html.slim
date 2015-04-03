@@ -36,7 +36,7 @@ div.container
     h1 Speakers
     div
       ul.l-tile-wrap
-        - speaker_years[2015].each do |article|
+        - speaker_years[2015].sort_by {|a| a.data.order || 99 }.reverse.each do |article|
           li.l-tile-3
             div.l-tile-content
               img.pg-home-speaker-img src=article.data.image alt=article.data.title 
