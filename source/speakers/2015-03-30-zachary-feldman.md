@@ -4,5 +4,6 @@ bio: Zach Feldman is a consummate technologist and has been a tinkerer from chil
 author: GORUCO
 image: /assets/images/speakers/2015/zach_feldman_16-9.png
 twitter: zachfeldman
+location: New York, NY
 year: 2015
 ---

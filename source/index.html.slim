@@ -41,6 +41,8 @@ div.container
             div.l-tile-content
               img.pg-home-speaker-img src=article.data.image alt=article.data.title 
               h3 = article.data.title
+              - if article.data.location.present?
+                i = article.data.location
               - if article.data.twitter.present?
                 a.pg-home-speaker-link href="http://twitter.com/#{article.data.twitter}" = article.data.twitter
               - if article.data.website.present?

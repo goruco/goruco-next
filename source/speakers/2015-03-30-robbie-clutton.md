@@ -4,5 +4,6 @@ bio: From London to New York and back again. Robbie started using Ruby in anger 
 author: GORUCO
 image: /assets/images/speakers/2015/robbie_clutton_16-9.png
 twitter: robb1e
+location: London, UK
 year: 2015
 ---

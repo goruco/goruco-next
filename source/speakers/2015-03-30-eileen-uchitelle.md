@@ -4,5 +4,6 @@ bio: Eileen M. Uchitelle spends her days working on performance and security at 
 author: GORUCO
 image: /assets/images/speakers/2015/eileen_uchitelle_16-9.jpg
 twitter: eileencodes
+location: Kingston, NY
 year: 2015
 ---
