@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/lisa_van_gelder-16-9.jpg
 twitter: techbint
 location: Brooklyn, NY
-order: 8
+order: 11
 year: 2015
 ---

@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/simon_eskildsen_16-9.jpg
 twitter: Sirupsen
 location: Ottawa, ON
-order: 7
+order: 4
 year: 2015
 ---

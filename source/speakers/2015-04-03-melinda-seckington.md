@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/melinda_seckington_16-9.png
 twitter: mseckington
 location: London, UK
-order: 10
+order: 12
 year: 2015
 ---

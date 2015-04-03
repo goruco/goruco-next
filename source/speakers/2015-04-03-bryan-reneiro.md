@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/bryan_reinero_16-9.jpg
 twitter: blimpyacht
 location: San Francisco, CA
-order: 11
+order: 7
 year: 2015
 ---

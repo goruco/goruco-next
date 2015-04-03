@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/nadia_odunayo_16-9.jpg
 twitter: nodunayo
 location: London, UK
-order: 12
+order: 6
 year: 2015
 ---

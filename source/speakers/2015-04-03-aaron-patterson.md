@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/aaron_patterson_16-9.png
 twitter: tenderlove
 location: Seattle, WA
-order: 9
+order: 3
 year: 2015
 ---

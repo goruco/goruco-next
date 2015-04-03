@@ -5,6 +5,6 @@ author: GORUCO
 image: /assets/images/speakers/2015/amy_wibowo_16-9.jpg
 twitter: sailorhg
 location: San Francisco, CA
-order: 6
+order: 8
 year: 2015
 ---
