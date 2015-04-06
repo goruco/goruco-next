@@ -28,7 +28,9 @@ div.mod-section-light.s4-pad-bottom
         a href="/news"
           ' Read More
       div.pg-home-news-right
-        h3 = top_article.data.title
+        h3
+          a href="/news"
+            = top_article.data.title
         div.type-secondary.type-truncate = top_article.body
 
 div.container
