@@ -10,14 +10,14 @@ div.pg-home-hero-wrap
     div.pg-home-hero
       header.s3
         h1.s0
-          span GORUCO 
+          span GORUCO
           span.type-accent 2015
 
         h2.type-weight-normal June 20th, New York, NY
 
       p.type-secondary.s4 GORUCO is a 1-day conference for highly motivated programmers.
 
-      a.ui-btn-round href="https://ti.to/goruco/2015" Register Now 
+      a.ui-btn-round href="https://ti.to/goruco/2015" Register Now
 
 div.mod-section-light.s4-pad-bottom
   div.container
@@ -25,13 +25,14 @@ div.mod-section-light.s4-pad-bottom
       - top_article = blog('news').articles.first
       div.pg-home-news-left
         h1.s0 News
-        a href="/news" 
+        a href="/news"
           ' Read More
       div.pg-home-news-right
         h3 = top_article.data.title
         div.type-secondary.type-truncate = top_article.body
 
 div.container
+  a name="speakers"
   section.past-speakers.mod-section
     h1 Speakers
     div
@@ -39,7 +40,7 @@ div.container
         - speaker_years[2015].sort_by {|a| a.data.order || -1 }.each do |article|
           li.l-tile-3
             div.l-tile-content
-              img.pg-home-speaker-img src=article.data.image alt=article.data.title 
+              img.pg-home-speaker-img src=article.data.image alt=article.data.title
               h3 = article.data.title
               - if article.data.location.present?
                 i = article.data.location
@@ -54,7 +55,7 @@ div.container
     p
       | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
       | We have openings for sponsorship of this year's
-      | conference at all levels.  Get in touch with us, we'd love to speak with you! 
+      | conference at all levels.  Get in touch with us, we'd love to speak with you!
       a href="mailto:sponsors@goruco.com" sponsors@goruco.com
 
   section.past-speakers.mod-section
@@ -63,11 +64,11 @@ div.container
       ul
         - speaker_years[2014].each do |article|
           li
-            p 
+            p
               a href=article.url
                 = article.data.meta
               span.s1-left = article.data.title
-      a.pos-right href="/speakers" 
+      a.pos-right href="/speakers"
         ' See All Past Talks
         i.icon-chevron-right
 
