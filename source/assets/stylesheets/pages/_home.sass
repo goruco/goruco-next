@@ -49,3 +49,41 @@
   display: block
   margin-bottom: $space
 
+.pg-home-schedule-wrap
+  max-width: 75rem
+  margin: 0 auto
+
+.pg-home-schedule-time
+  position: relative
+  float: left
+  width: $pg-home-schedule-time-width
+  font-size: $type-med
+
+  &:after
+    content: ''
+    position: absolute
+    right: -0.4rem
+    top: 0.4em
+    display: block
+    background-color: $color-accent
+    @include dim(1.5rem)
+    @include border-radius(10rem)
+    z-index: 2
+    border: 0.4rem solid $color-bg
+
+.pg-home-schedule-info
+  position: relative
+  margin-left: $pg-home-schedule-time-width
+  padding-bottom: $space*4
+  margin-top: 0
+  margin-bottom: 0
+  padding-left: 2rem
+
+  &:before
+    content: ''
+    position: absolute
+    left: -0.75rem
+    height: 100%
+    width: 0.1rem 
+    background-color: $color-accent
+    z-index: 1

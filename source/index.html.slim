@@ -36,7 +36,6 @@ div.mod-section-light.s4-pad-bottom
 div.container
   a name="speakers"
   section.past-speakers.mod-section
-    a.float-right.ui-btn-round href="https://ti.to/goruco/2015" Register Now
     h1 Speakers
     div
       ul.l-tile-wrap
@@ -52,6 +51,19 @@ div.container
               - if article.data.website.present?
                 a.pg-home-speaker-link href=article.data.website = article.data.website
               p.type-secondary.type-small = article.data.bio
+
+  section.schedule.mod-section
+    h1 Schedule
+    div.pg-home-schedule-wrap
+      ul
+        - speaker_years[2015].sort_by {|a| a.data.order || -1}.each do |talk|
+          li.pg-home-schedule-item
+            div.pg-home-schedule-time = talk.data.time
+            h3.pg-home-schedule-info.type-bold
+              span = talk.data.meta
+              span  - 
+              span = talk.data.title
+        
 
   section.sponsorship.mod-section
     h1 Sponsorship
