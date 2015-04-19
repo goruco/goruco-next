@@ -4,6 +4,7 @@ title: 'GORUCO'
 ---
 
 - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+- schedule = blog('schedule').articles.group_by { |article| article.data.year }
 
 div.pg-home-hero-wrap
   div.container
@@ -19,22 +20,21 @@ div.pg-home-hero-wrap
 
       a.ui-btn-round href="https://ti.to/goruco/2015" Register Now
 
-div.mod-section-light.s4-pad-bottom
-  div.container
-    section.news.s4-pad-top.s4.pos-clearfix
-      - top_article = blog('news').articles.first
-      div.pg-home-news-left
-        h1.s0 News
-        a href="/news"
-          ' Read More
-      div.pg-home-news-right
-        h3
-          a href="/news"
-            = top_article.data.title
-        div.type-secondary.type-truncate = top_article.body
 
 div.container
+  section.mod-section.news.s4-pad-top.s4.pos-clearfix
+    - top_article = blog('news').articles.first
+    div.pg-home-news-left
+      h1.s0 News
+      a href="/news"
+        ' Read More
+    div.pg-home-news-right
+      h3
+        a href="/news"
+          = top_article.data.title
+      div.type-secondary.type-truncate = top_article.body
   a name="speakers"
+
   section.past-speakers.mod-section
     h1 Speakers
     div
@@ -50,19 +50,23 @@ div.container
                 a.pg-home-speaker-link href="http://twitter.com/#{article.data.twitter}" = "@#{article.data.twitter}"
               - if article.data.website.present?
                 a.pg-home-speaker-link href=article.data.website = article.data.website
-              p.type-secondary.type-small = article.data.bio
+              p.type-secondary.type-small.pg-home-speaker-bio.js-truncate data-truncate="400" = article.data.bio
 
   section.schedule.mod-section
     h1 Schedule
     div.pg-home-schedule-wrap
       ul
-        - speaker_years[2015].sort_by {|a| a.data.order || -1}.each do |talk|
+        - schedule[2015].sort_by {|a| a.data.order || -1}.each do |talk|
           li.pg-home-schedule-item
             div.pg-home-schedule-time = talk.data.time
-            h3.pg-home-schedule-info.type-bold
-              span = talk.data.meta
-              span  - 
-              span = talk.data.title
+            div.pg-home-schedule-info
+              h3.no-mar-top
+                span = talk.data.title
+                - if talk.data.author
+                  span  - 
+                  span = talk.data.author
+              - if talk.data.description
+                p.type-secondary.js-truncate data-truncate="340" = talk.data.description
         
 
   section.sponsorship.mod-section

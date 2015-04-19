@@ -49,21 +49,34 @@
   display: block
   margin-bottom: $space
 
+.pg-home-speaker-bio
+  a
+    color: $color-white
+
 .pg-home-schedule-wrap
   max-width: 75rem
   margin: 0 auto
+
+.pg-home-schedule-item
+  &:last-child
+    .pg-home-schedule-info
+      &:before
+        display: none
+
 
 .pg-home-schedule-time
   position: relative
   float: left
   width: $pg-home-schedule-time-width
   font-size: $type-med
+  text-align: right
+  padding-right: 3rem
 
   &:after
     content: ''
     position: absolute
     right: -0.4rem
-    top: 0.4em
+    top: 0
     display: block
     background-color: $color-accent
     @include dim(1.5rem)
