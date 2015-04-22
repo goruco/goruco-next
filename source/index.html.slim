@@ -53,7 +53,7 @@ div.container
               p.type-secondary.type-small.pg-home-speaker-bio.js-truncate data-truncate="400" = article.data.bio
 
   section.schedule.mod-section
-    h1 Schedule
+    h1 Tentative Schedule
     div.pg-home-schedule-wrap
       ul
         - schedule[2015].sort_by {|a| a.data.order || -1}.each do |talk|
