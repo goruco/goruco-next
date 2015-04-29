@@ -88,7 +88,6 @@ activate :blog do |blog|
   blog.permalink = '{year}/{title}'
   blog.taglink = "tags/{tag}"
   blog.default_extension = ".md"
-  blog.layout   = "schedule"
   blog.paginate = true
   blog.per_page = 10
 end
