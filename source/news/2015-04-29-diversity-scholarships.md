@@ -23,3 +23,6 @@ Please submit your scholarship application [here](https://goruco.wufoo.com/forms
 Scholarships are awarded based on a combination of need and impact and will be awarded based on review by a selection committee consisting of a subset of GORUCO’s organisers.
 
 All applicants will be notified of their application's status by Friday, May 22.
+
+<a class="ui-btn" href="https://goruco.wufoo.com/forms/goruco-scholarship-application-2015/">Apply For Scholarship</a>
+
