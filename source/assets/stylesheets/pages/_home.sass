@@ -5,7 +5,10 @@
   margin-top: -#{$g-header-height}
 
 .pg-home-hero
-  padding: $pg-home-hero-padding + $g-header-height 0 $pg-home-hero-padding
+  padding: $pg-home-hero-sm-padding + $g-header-height 0 $pg-home-hero-sm-padding
+
+  @media #{$mq-sm}
+    padding: $pg-home-hero-padding + $g-header-height 0 $pg-home-hero-padding
 
 
 .pg-home-input

@@ -5,8 +5,9 @@ title: 'GORUCO'
 
 - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
 - schedule = blog('schedule').articles.group_by { |article| article.data.year }
+- home_nav = ['news', 'speakers', 'schedule', 'sponsorship', 'past talks', 'organizers', 'updates']
 
-div.pg-home-hero-wrap
+div.pg-home-hero-wrap id='hero'
   div.container
     div.pg-home-hero
       header.s3
@@ -20,9 +21,20 @@ div.pg-home-hero-wrap
 
       a.ui-btn-round href="https://ti.to/goruco/2015" Register Now
 
+div.g-nav-wrap
+  div.js-nav
+    nav.g-nav
+      ul.container.type-small
+        li class='logo'
+          a.icon-logo href="#hero"
+
+        - for nav in home_nav
+          li
+            a.js-nav-link href="##{nav.downcase.tr(" ", "_")}"
+              = nav
 
 div.container
-  section.mod-section.news.s4-pad-top.s4.pos-clearfix
+  section.mod-section.news.s4-pad-top.s4.pos-clearfix.js-home-section id='news'
     - top_article = blog('news').articles.first
     div.pg-home-news-left
       h1.s0 News
@@ -35,7 +47,7 @@ div.container
       div.type-secondary.type-truncate = top_article.body
   a name="speakers"
 
-  section.past-speakers.mod-section
+  section.past-speakers.mod-section.js-home-section id='speakers'
     h1 Speakers
     div
       ul.l-tile-wrap
@@ -52,7 +64,7 @@ div.container
                 a.pg-home-speaker-link href=article.data.website = article.data.website
               p.type-secondary.type-small.pg-home-speaker-bio.js-truncate data-truncate="400" = article.data.bio
 
-  section.schedule.mod-section
+  section.schedule.mod-section.js-home-section id='schedule'
     h1 Tentative Schedule
     div.pg-home-schedule-wrap
       ul
@@ -69,7 +81,7 @@ div.container
                 p.type-secondary.js-truncate data-truncate="340" = talk.data.description
         
 
-  section.sponsorship.mod-section
+  section.sponsorship.mod-section.js-home-section id='sponsorship'
     h1 Sponsorship
     p
       | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
@@ -77,7 +89,7 @@ div.container
       | conference at all levels.  Get in touch with us, we'd love to speak with you!
       a href="mailto:sponsors@goruco.com" sponsors@goruco.com
 
-  section.past-speakers.mod-section
+  section.past-speakers.mod-section.js-home-section id='past_talks'
     h1 2014 Past Talks
     .talks-sidebar
       ul
@@ -94,7 +106,7 @@ div.container
     .talks-panel
       - article = speaker_years[2014].first
 
-  section.organizers.mod-section id='organizers'
+  section.organizers.mod-section.js-home-section id='organizers'
     h1 Organizers
     ul
       - blog('organizers').articles.each do |article|
@@ -110,7 +122,7 @@ div.container
               a href="http://#{article.data.link}"
                 = "#{article.data.link}"
 
-  section.updates.mod-section id="updates"
+  section.updates.mod-section.js-home-section id="updates"
     h1 Updates
     form.signup-form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate"
       h3.s2.pg-home-get-updates-header Get Updates
