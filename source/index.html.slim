@@ -4,8 +4,9 @@ title: 'GORUCO'
 ---
 
 - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
+- sponsor_years = blog('sponsors').articles.group_by { |article| article.data.year }
 - schedule = blog('schedule').articles.group_by { |article| article.data.year }
-- home_nav = ['news', 'speakers', 'schedule', 'location', 'sponsorship', 'past talks', 'organizers', 'updates']
+- home_nav = ['news', 'sponsors', 'speakers', 'schedule', 'sponsorship', 'past talks', 'organizers', 'updates']
 
 div.pg-home-hero-wrap id='hero'
   div.container
@@ -46,6 +47,10 @@ div.container
           = top_article.data.title
       div.type-secondary.type-truncate = top_article.body
   a name="speakers"
+
+  section.mod-section.sponsor.js-home-section id='sponsors'
+    - sponsor_years[2015].sort_by {|a| a.data.order || -1 }.each do |article|
+      = article.data.title
 
   section.past-speakers.mod-section.js-home-section id='speakers'
     h1 Speakers
