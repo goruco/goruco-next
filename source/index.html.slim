@@ -48,6 +48,10 @@ div.container
       div.type-secondary.type-truncate = top_article.body
   a name="speakers"
 
+  section.mod-section.sponsor.js-home-section id='sponsors'
+    - sponsor_years[2015].sort_by {|a| a.data.order || -1 }.each do |article|
+      = article.data.title
+
   section.past-speakers.mod-section.js-home-section id='speakers'
     h1 Speakers
     div
