@@ -1,6 +1,6 @@
 ---
-title: Def Method
-type: Bronze
+title: Case Commons
+type: gold
 year: 2015
 image: /assets/images/sponsors/case-commons.png
 url: www.casecommons.org

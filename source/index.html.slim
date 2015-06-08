@@ -6,7 +6,7 @@ title: 'GORUCO'
 - speaker_years = blog('speakers').articles.group_by { |article| article.data.year }
 - sponsor_years = blog('sponsors').articles.group_by { |article| article.data.year }
 - schedule = blog('schedule').articles.group_by { |article| article.data.year }
-- home_nav = ['news', 'sponsors', 'speakers', 'schedule', 'sponsorship', 'past talks', 'organizers', 'updates']
+- home_nav = ['news', 'speakers', 'schedule', 'sponsors', 'past talks', 'organizers', 'updates']
 
 div.pg-home-hero-wrap id='hero'
   div.container
@@ -48,10 +48,6 @@ div.container
       div.type-secondary.type-truncate = top_article.body
   a name="speakers"
 
-  section.mod-section.sponsor.js-home-section id='sponsors'
-    - sponsor_years[2015].sort_by {|a| a.data.order || -1 }.each do |article|
-      = article.data.title
-
   section.past-speakers.mod-section.js-home-section id='speakers'
     h1 Speakers
     div
@@ -90,8 +86,33 @@ div.container
     ul#marker-list
     div#map
 
-  section.sponsorship.mod-section.js-home-section id='sponsorship'
-    h1 Sponsorship
+  section.mod-section.sponsor.js-home-section id='sponsors'
+    h1 Sponsors
+    ul.pos-clearfix.pg-home-sponsors
+
+      - sponsor_years[2015].select{|a| a.data.type == 'platinum'}.each do |article|
+        li.l-tile-4
+          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
+
+      - sponsor_years[2015].select{|a| a.data.type == 'gold'}.each do |article|
+        li.l-tile-2
+          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
+
+      - sponsor_years[2015].select{|a| a.data.type == 'silver'}.each do |article|
+        li.l-tile-3
+          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
+
+      - sponsor_years[2015].select{|a| a.data.type == 'bronze'}.each do |article|
+        li.l-tile-4
+          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
+
+      - sponsor_years[2015].select{|a| a.data.type == 'lanyard'}.each do |article|
+        li.l-tile-4
+          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
+        
+        
+        
+    h2 Become A Sponsor
     p
       | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
       | We have openings for sponsorship of this year's

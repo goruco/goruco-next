@@ -1,6 +1,6 @@
 ---
 title: Honey Badger
-type: Bronze
+type: bronze
 year: 2015
 image: /assets/images/sponsors/honey-badger.png
 url: www.honeybadger.io

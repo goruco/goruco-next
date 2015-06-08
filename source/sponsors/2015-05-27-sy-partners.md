@@ -1,6 +1,6 @@
 ---
 title: SYPartners
-type: Bronze
+type: bronze
 year: 2015
 author: GORUCO
 image: /assets/images/sponsors/sypartners.png
