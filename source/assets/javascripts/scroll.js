@@ -21,9 +21,9 @@ $(function() {
       $navLinks.removeClass('active')
     }
     , isInView = function(elem) {
-        var docTop = $window.scrollTop() 
+        var docTop = $window.scrollTop()
           , docBottom = docTop + $window.height()
-          , elTop = $(elem).offset().top 
+          , elTop = $(elem).offset().top
           , elBottom = elTop + $(elem).height()
           ;
 
