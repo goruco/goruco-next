@@ -106,11 +106,63 @@
 
 .pg-home-sponsors
   text-align: center
+  margin-bottom: $space*8
+  $border: 1px solid #e5e5e5
 
   li
-    margin-bottom: $space*8
+    float: left
+    padding: $space*4
+    border-bottom: $border
+
+    &:nth-child(11)
+      clear: both
+
+
+    &.platinum
+      width: 100%
+      padding-right: $space*4 
+      border-top: $border
+
+      img
+        max-height: 35rem
+        margin: 0 auto
+
+    &.gold,
+    &.silver
+      border-right: $border
+      width: 50%
+
+      &:nth-child(2n + 1)
+        border-right: 0
+
+      @media #{$mq-sm}
+        width: 100/3 * 1%
+        &:nth-child(2n + 1)
+          border-right: $border
+        &:nth-child(3n + 1)
+          border-right: 0
+
+    &.bronze,
+    &.diversity,
+    &.lanyard
+      border-right: $border
+      width: 100/3 * 1%
+
+      &:nth-child(3n + 10)
+        border-right: 0
+
+      &:last-child
+        border-right: 0
+
+      @media #{$mq-sm}
+        width: 100/5 * 1%
+
+        &:nth-child(3n + 10)
+          border-right: $border
+
+        &:nth-child(5n + 10)
+          border-right: 0
 
   img
-    max-height: 25rem
     margin: 0 auto
     display: block
