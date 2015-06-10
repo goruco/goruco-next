@@ -39,12 +39,12 @@ $(function() {
               $navLinks.removeClass('active')
               removeActiveNav();
             }
-          } 
+          }
           $activeLink.addClass('active');
         }
       }
     ;
-    
+
 
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
@@ -69,7 +69,7 @@ $(function() {
 
   setTimeout(function() {
     resizeNav()
-  }, 500)
+  }, 500);
 
   $window.on('scroll', function() {
     didScroll = true
@@ -77,18 +77,16 @@ $(function() {
 
   setInterval(function() {
     if (didScroll === true) {
-      didScroll = false
+      didScroll = false;
       $('.js-home-section').each(function() {
-        // console.log($(this).attr('id'), isInView(this))
         if (isInView(this)) {
           activeNavIndex = $('.js-home-section').index(this);
-          console.log($(this).attr('id'), activeNavIndex)
-          setActiveNav(activeNavIndex)
+          setActiveNav(activeNavIndex);
           return false;
         }
       });
       checkStickyNav();
     }
   }, 25);
-  
+
 });
