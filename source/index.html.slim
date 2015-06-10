@@ -35,7 +35,7 @@ div.g-nav-wrap
               = nav
 
 div.container
-  section.mod-section.news.s4-pad-top.s4.pos-clearfix.js-home-section id='news'
+  section.mod-section.news.s4-pad-top.pos-clearfix.js-home-section id='news'
     - top_article = blog('news').articles.first
     div.pg-home-news-left
       h1.s0 News
@@ -47,10 +47,6 @@ div.container
           = top_article.data.title
       div.type-secondary.type-truncate = top_article.body
   a name="speakers"
-
-  section.mod-section.sponsor.js-home-section id='sponsors'
-    - sponsor_years[2015].sort_by {|a| a.data.order || -1 }.each do |article|
-      = article.data.title
 
   section.past-speakers.mod-section.js-home-section id='speakers'
     h1 Speakers
@@ -85,44 +81,27 @@ div.container
               - if talk.data.description
                 p.type-secondary.js-truncate data-truncate="340" = talk.data.description
         
-
-<<<<<<< HEAD
-  section.mod-section.sponsor.js-home-section id='sponsors'
-    h1 Sponsors
-    ul.pos-clearfix.pg-home-sponsors
-
-      - sponsor_years[2015].select{|a| a.data.type == 'platinum'}.each do |article|
-        li.l-tile-4
-          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
-
-      - sponsor_years[2015].select{|a| a.data.type == 'gold'}.each do |article|
-        li.l-tile-2
-          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
-
-      - sponsor_years[2015].select{|a| a.data.type == 'silver'}.each do |article|
-        li.l-tile-3
-          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
-
-      - sponsor_years[2015].select{|a| a.data.type == 'bronze'}.each do |article|
-        li.l-tile-4
-          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
-
-      - sponsor_years[2015].select{|a| a.data.type == 'lanyard'}.each do |article|
-        li.l-tile-4
-          img src=article.data.image alt=article.data.title onerror="this.style.display='none'"
-        
-        
-    h2 Become A Sponsor
-    p
-      | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
-      | We have openings for sponsorship of this year's
-      | conference at all levels.  Get in touch with us, we'd love to speak with you!
-      a href="mailto:sponsors@goruco.com" sponsors@goruco.com
-
   section.location.mod-section.js-home-section id='location'
     h1 Location
     div#map
 
+div.color-bg-white.on-light
+  div.container
+    section.mod-section.sponsor.js-home-section id='sponsors'
+      h1 Sponsors
+      ul.pos-clearfix.pg-home-sponsors
+        - data.sponsors_2015.sponsors.each do |sponsor|
+          li class=sponsor.type 
+            img src=sponsor.image alt=sponsor.title onerror="this.style.display='none'"
+          
+      h2 Become A Sponsor
+      p
+        | Sponsoring GORUCO is a great way to connect with the Ruby community and show your support.
+        | We have openings for sponsorship of this year's
+        | conference at all levels.  Get in touch with us, we'd love to speak with you!
+        a href="mailto:sponsors@goruco.com" sponsors@goruco.com
+
+div.container
   section.past-speakers.mod-section.js-home-section id='past_talks'
     h1 2014 Past Talks
     .talks-sidebar
