@@ -59,7 +59,7 @@ $(function() {
 	    });
 	});
 
-  checkStickyNav()
+  checkStickyNav();
 
   // set up sticky nav height
 
@@ -68,11 +68,11 @@ $(function() {
   });
 
   setTimeout(function() {
-    resizeNav()
+    resizeNav();
   }, 500);
 
   $window.on('scroll', function() {
-    didScroll = true
+    didScroll = true;
   });
 
   setInterval(function() {
