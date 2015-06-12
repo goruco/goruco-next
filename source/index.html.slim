@@ -96,7 +96,7 @@ div.color-bg-white.on-light
       h1 Sponsors
       ul.pos-clearfix.pg-home-sponsors
         - data.sponsors_2015.sponsors.each do |sponsor|
-          li class=sponsor.type 
+          li.js-modal class=sponsor.type
             img src=sponsor.image alt=sponsor.title onerror="this.style.display='none'"
           
       h2 Become A Sponsor
