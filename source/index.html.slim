@@ -55,8 +55,10 @@ div.container
         - speaker_years[2015].sort_by {|a| a.data.order || -1 }.each do |article|
           li.l-tile-3
             div.l-tile-content
-              img.pg-home-speaker-img src=article.data.image alt=article.data.title
-              h3 = article.data.title
+              a href="#{article.url}"
+                img.pg-home-speaker-img src=article.data.image alt=article.data.title
+              a href="#{article.url}"
+                h3 = article.data.title
               - if article.data.location.present?
                 i = article.data.location
               - if article.data.twitter.present?
@@ -76,7 +78,7 @@ div.container
               h3.no-mar-top
                 span = talk.data.title
                 - if talk.data.author
-                  span  - 
+                  span -
                   span = talk.data.author
               - if talk.data.description
                 p.type-secondary.js-truncate data-truncate="340" = talk.data.description
