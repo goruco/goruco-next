@@ -13,26 +13,16 @@ youtube_video_id: oT74HLvDo_A
 ---
 
 ###Talk Synopsis
-Google Analytics, Like Buttons, Twitter Widgets, Olark chat boxes; all examples of third party JavaScript elements that are embedded by users in their websites.
+"Understanding performance output can feel like reading tea leaves. It makes sense to a few people, but many of us are left in the dark; overwhelmed and frustrated by the data. On top of that there are a ton of performance tools to choose from; StackProf, RubyProf, AllocationTracer. Where do you even start?
 
-Testing third party code once embedded in a page, is often difficult and cumbersome.  Verifying those elements are working properly (or even more basically, are not breaking the page) is difficult to get right.  Clients will often not give you access to their page, or allow you to debug 'live', leaving scope for bugs to creep in.
+While working on speeding up integration tests in Rails source, I learned that the key to improving the performance of Ruby code is having a baseline, not relying on one profiler and understanding the advantages and limitations of your tools. By utilizing these methods, integration tests are now 3 times faster than they were in Rails 4.2.0, with more improvements being made every day.
 
-Complicating matters further, other JavaScripts are often competing to execute on the page (sometimes erroring out), and then you have to make this all work cross-browser!
-
-####So what is the right approach to take?
-
-I will show you how using a Ruby script to generate and minify my JavaScript, and a Node.js proxy server to intercept responses, I am able to safely inject my JavaScript into the page.
-
-In addition to this, I will show you ways to use Rspec/Capybara to come run regression tests that utilize the proxy, and test my JavaScript while it is **live** embedded on client pages.
+In this talk we will not only look at how to read performance output, but when and how to use the right profilers for the job. We'll discuss a variety of methods and techniques for benchmarking and profiling so you can get the most out of any performance tool.""
 
 
 ###Biography
-Nate is a software developer lead at Magnetic, an advertising firm in New York that focuses on Search Retargeting.
+Eileen M. Uchitelle spends her days working on performance and security at Basecamp; or as you probably know it better, the place Ruby on Rails was born. She accidentally started contributing to open source after giving a talk on some problems with Active Record. Aaron Patterson was there and told her "fix it yourself" (not really). When she's not making Rails better by improving Active Record and speeding up integration tests, Eileen enjoys craft beer and hiking in the Hudson Valley with her husband and their dog.
 
-Formerly, he has worked at OMGPOP, Lehman Brothers, and his own startup Robot Recruit.
-
-He has a dog named butters that accompanies him wherever he goes.
-
-blog: [dewful.com](http://dewful.com/) (not updated too often)
+twitter: @eileencodes
 
 
