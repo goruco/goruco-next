@@ -36,5 +36,8 @@
         div.iframe-video-wrapper.vimeo
           iframe src="//player.vimeo.com/video/#{current_page.data.vimeo_video_id}?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
       == yield
+      - if current_page.data.synopsis.present?
+        div.synopsis
+          p = current_page.data.synopsis
 
 = partial 'ratings'
